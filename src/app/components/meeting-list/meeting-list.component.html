@@ -1,18 +1,19 @@
+<div id="meetings-wrapper" style="margin: 0 auto;">
 <div id="daySwitcher">
-  <span (click)="onSelect('')" [ngClass]="!selectedDay || selectedDay ==='' ? 'badge-primary' : 'badge-secondary'"
-    class="badge">All</span>
+  <button type="button" (click)="onSelect('')" [ngClass]="!selectedDay || selectedDay ==='' ? 'btn-primary' : 'btn-secondary'"
+    class="btn btn-primary btn-xs">All</button>
   <ng-container *ngFor="let weekday of weekdays">
-    <span (click)="onSelect(weekday)" [ngClass]="selectedDay===weekday ? 'badge-primary' : 'badge-secondary'"
-      class="badge">{{ weekday }}</span>
+    <button type="button" (click)="onSelect(weekday)" [ngClass]="selectedDay===weekday ? 'btn-primary' : 'btn-secondary'"
+      class="btn btn-primary btn-xs">{{ weekday }}</button>
   </ng-container>
 </div>
 <div style="padding-top: 20px; padding-bottom: 20px;">
   <div id="search" class="form-group form-inline">
     <label class="control-label" style="padding-right:5px" for="search-input">Search:</label>
     <input type="input" class="form-control" [(ngModel)]="filterText" id="search-input" placeholder="e.g. Hope">
+    <button (click)="filterText=''" type="button" class="btn btn-secondary">Clear</button>
   </div>
-  <small id="searchHelp" class="form-text text-muted">Try searching for Evening, Open Discussion, etc.<span
-      style="color:red; font-weight:bold">*not yet implemented*</span></small>
+  <small id="searchHelp" class="form-text text-muted">Try searching for Evening, Late, Afternoon, Indiana, Kentucky, Open, Close, Discussion, Speaker, etc.</small>
 </div>
 <div *ngFor="let meeting of meetings | dayofweek:selectedDay | search:filterText">
   <div class="card border-primary mb-3" style="max-width: 35rem;">
@@ -37,4 +38,5 @@
       </div>
     </ng-container>
   </div>
+</div>
 </div>

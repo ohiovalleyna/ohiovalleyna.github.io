@@ -7,6 +7,7 @@ import { Meeting, DayOfWeek } from '../../models/meeting';
 export class DayOfWeekPipe implements PipeTransform {
 
   transform(meetingList: Meeting[], dayOfWeek: any) : Meeting[] {
+    if (!meetingList) return meetingList;
     if (dayOfWeek == ""){
       return meetingList;
     }

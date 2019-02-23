@@ -1,43 +1,5 @@
 [
     {
-        "groupName": "Sunday Survivors",
-        "dayOfWeek": "Sunday",
-        "time": 46800,
-        "location": "Serenity House",
-        "address": {
-            "street": "200 Homestead, Ave",
-            "city": "Clarksville",
-            "state": "IN",
-            "zip": "47129"
-        },
-        "tags": [
-            {
-                "tag": "Afternoon",
-                "visible": false
-            },
-            {
-                "tag": "Open",
-                "visible": true
-            },
-            {
-                "tag": "Discussion",
-                "visible": true
-            },
-            {
-                "tag": "Speaker",
-                "visible": true
-            },
-            {
-                "tag": "Wheelchair Accessible",
-                "visible": true
-            },
-            {
-                "tag": "Indiana",
-                "visible": false
-            }
-        ]
-    },
-    {
         "groupName": "Spiritual Not Religious ",
         "dayOfWeek": "Sunday",
         "time": 46800,

@@ -20,7 +20,7 @@ export class MeetingListComponent implements OnInit {
 
   onSelect(day: string): void {
     this.selectedDay = day;
-    this.filterText = "";
+    //this.filterText = "";
     //this.getMeetings();
   }
 
