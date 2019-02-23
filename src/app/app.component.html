@@ -1,0 +1,30 @@
+<div>
+    <nav class="navbar navbar-expand-lg navbar-inverse navbar-static-top">
+        <a class="navbar-brand smallFont" href="index.html">
+            <font color="red" size="6">O</font>HIO <font color="red" size="6">V</font>ALLEY <font color="red"
+                size="6">A</font>REA OF <font color="red" size="6">N</font>ARCOTICS <font color="red"
+                size="6">A</font>NONYMOUS
+        </a>          
+        
+    <div class="collapse navbar-collapse" id="navbarColor01">
+        <ul class="navbar-nav ml-auto align-items-end">     
+            <li class="nav-item" data-toggle="collapse" data-target=".navbar-collapse.show">
+                <a class="nav-link active" routerLink="/home">Home</a>
+            </li>
+            <li class="nav-item" data-toggle="collapse" data-target=".navbar-collapse.show">
+                <a class="nav-link" routerLink="/calendar">Calendar</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Area Documents</a>
+            </li>
+            <li class="nav-item" data-toggle="collapse" data-target=".navbar-collapse.show">
+                <a class="nav-link" routerLink="/meeting-list">Meetings</a>
+            </li>
+
+        </ul>
+    </div>
+</nav>
+</div>
+<div id="content" style="display:block; width:100%; margin:0px auto !important; padding-top:70px">
+    <router-outlet></router-outlet>
+</div>

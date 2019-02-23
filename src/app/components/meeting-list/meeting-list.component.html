@@ -1,0 +1,40 @@
+<div id="daySwitcher">
+  <span (click)="onSelect('')" [ngClass]="!selectedDay || selectedDay ==='' ? 'badge-primary' : 'badge-secondary'"
+    class="badge">All</span>
+  <ng-container *ngFor="let weekday of weekdays">
+    <span (click)="onSelect(weekday)" [ngClass]="selectedDay===weekday ? 'badge-primary' : 'badge-secondary'"
+      class="badge">{{ weekday }}</span>
+  </ng-container>
+</div>
+<div style="padding-top: 20px; padding-bottom: 20px;">
+  <div id="search" class="form-group form-inline">
+    <label class="control-label" style="padding-right:5px" for="search-input">Search:</label>
+    <input type="input" class="form-control" [(ngModel)]="filterText" id="search-input" placeholder="e.g. Hope">
+  </div>
+  <small id="searchHelp" class="form-text text-muted">Try searching for Evening, Open Discussion, etc.<span
+      style="color:red; font-weight:bold">*not yet implemented*</span></small>
+</div>
+<div *ngFor="let meeting of meetings | dayofweek:selectedDay | search:filterText">
+  <div class="card border-primary mb-3" style="max-width: 35rem;">
+    <h3 class="card-header">{{ meeting.groupName }}</h3>
+    <div class="card-body">
+      <h5 class="card-title">{{ meeting.dayOfWeek }}s at {{ meeting.time | time }}</h5>
+      <p class="card-text">
+        <ng-container *ngIf="meeting.location">{{ meeting.location }}<br /></ng-container>
+        {{ meeting.address.street }}
+        <br />
+        {{ meeting.address | address }}
+      </p>
+    </div>
+    <ng-container *ngIf="meeting.tags">
+      <div class="card-footer text-muted">
+        <span *ngFor="let tag of meeting.tags | visibletags" class="badge badge-primary">{{ tag.tag }} </span>
+      </div>
+      <div id="invisible-tags" style="display:none;">
+        <ng-container *ngFor="let tag of meeting.tags | invisibletags">
+          {{ tag.tag }}
+        </ng-container>
+      </div>
+    </ng-container>
+  </div>
+</div>
