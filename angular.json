@@ -21,7 +21,8 @@
             "assets": [
               "src/favicon.ico",
               "src/assets",
-              "src/.htaccess"
+              "src/.htaccess",
+              "src/CNAME"
             ],
             "styles": [
               "src/styles.css"
@@ -86,7 +87,8 @@
             "assets": [
               "src/favicon.ico",
               "src/assets",
-              ".htaccess"
+              ".htaccess",
+              "src/CNAME"
             ]
           }
         },
