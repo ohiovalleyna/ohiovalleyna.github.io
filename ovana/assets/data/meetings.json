@@ -1,0 +1,3515 @@
+[
+    {
+        "groupName": "Sunday Survivors",
+        "dayOfWeek": "Sunday",
+        "time": 46800,
+        "location": "Serenity House",
+        "address": {
+            "street": "200 Homestead, Ave",
+            "city": "Clarksville",
+            "state": "IN",
+            "zip": "47129"
+        },
+        "tags": [
+            {
+                "tag": "Afternoon",
+                "visible": false
+            },
+            {
+                "tag": "Open",
+                "visible": true
+            },
+            {
+                "tag": "Discussion",
+                "visible": true
+            },
+            {
+                "tag": "Speaker",
+                "visible": true
+            },
+            {
+                "tag": "Wheelchair Accessible",
+                "visible": true
+            },
+            {
+                "tag": "Indiana",
+                "visible": false
+            }
+        ]
+    },
+    {
+        "groupName": "Spiritual Not Religious ",
+        "dayOfWeek": "Sunday",
+        "time": 46800,
+        "location": "Hogans Fountain Cherokee Park",
+        "address": {
+            "street": "across the street from the teepee pavilion April 17th-Oct 30th",
+            "city": "Louisville",
+            "state": "KY",
+            "zip": "40204"
+        },
+        "tags": [
+            {
+                "tag": "Afternoon",
+                "visible": false
+            },
+            {
+                "tag": "Open",
+                "visible": true
+            },
+            {
+                "tag": "Discussion",
+                "visible": true
+            },
+            {
+                "tag": "Kentucky",
+                "visible": false
+            }
+        ]
+    },
+    {
+        "groupName": "Recovery At Large",
+        "dayOfWeek": "Sunday",
+        "time": 46800,
+        "location": "Safe Harbor Club",
+        "address": {
+            "street": "200 S Joe Prather Hwy",
+            "city": "Vine Grove",
+            "state": "KY",
+            "zip": "40175"
+        },
+        "tags": [
+            {
+                "tag": "Afternoon",
+                "visible": false
+            },
+            {
+                "tag": "Kentucky",
+                "visible": false
+            }
+        ]
+    },
+    {
+        "groupName": "Serenity on Sunday",
+        "dayOfWeek": "Sunday",
+        "time": 48600,
+        "location": "Recovery Resource Center",
+        "address": {
+            "street": "2501 W Market",
+            "city": "Louisville",
+            "state": "KY",
+            "zip": "40212"
+        },
+        "tags": [
+            {
+                "tag": "Afternoon",
+                "visible": false
+            },
+            {
+                "tag": "Open",
+                "visible": true
+            },
+            {
+                "tag": "Kentucky",
+                "visible": false
+            }
+        ]
+    },
+    {
+        "groupName": "Recovering Minds",
+        "dayOfWeek": "Sunday",
+        "time": 64800,
+        "location": "Floyd County Token Club Upstairs",
+        "address": {
+            "street": "506 Pearl St.",
+            "city": "New Albany",
+            "state": "IN",
+            "zip": "47150"
+        },
+        "tags": [
+            {
+                "tag": "Evening",
+                "visible": false
+            },
+            {
+                "tag": "Open",
+                "visible": true
+            },
+            {
+                "tag": "Discussion",
+                "visible": true
+            },
+            {
+                "tag": "Indiana",
+                "visible": false
+            }
+        ]
+    },
+    {
+        "groupName": "Searching For Serenity",
+        "dayOfWeek": "Sunday",
+        "time": 64800,
+        "location": "Safe Harbor Club",
+        "address": {
+            "street": "200 S Joe Prather Hwy",
+            "city": "Vine Grove",
+            "state": "KY",
+            "zip": "40175"
+        },
+        "tags": [
+            {
+                "tag": "Evening",
+                "visible": false
+            },
+            {
+                "tag": "Kentucky",
+                "visible": false
+            }
+        ]
+    },
+    {
+        "groupName": "Group 53",
+        "dayOfWeek": "Sunday",
+        "time": 66600,
+        "location": "St Paul Evangal Lutheran",
+        "address": {
+            "street": "2304 Crums Lane",
+            "city": "Louisville",
+            "state": "KY",
+            "zip": "40216"
+        },
+        "tags": [
+            {
+                "tag": "Evening",
+                "visible": false
+            },
+            {
+                "tag": "Open",
+                "visible": true
+            },
+            {
+                "tag": "Discussion",
+                "visible": true
+            },
+            {
+                "tag": "Wheelchair Accessible",
+                "visible": true
+            },
+            {
+                "tag": "Kentucky",
+                "visible": false
+            }
+        ]
+    },
+    {
+        "groupName": "Miracle On 22nd St.",
+        "dayOfWeek": "Sunday",
+        "time": 68400,
+        "location": "Recovery Resource Center",
+        "address": {
+            "street": "2501 W Market St.",
+            "city": "Louisville",
+            "state": "KY",
+            "zip": "40212"
+        },
+        "tags": [
+            {
+                "tag": "Evening",
+                "visible": false
+            },
+            {
+                "tag": "Open",
+                "visible": true
+            },
+            {
+                "tag": "Discussion",
+                "visible": true
+            },
+            {
+                "tag": "Kentucky",
+                "visible": false
+            }
+        ]
+    },
+    {
+        "groupName": "Southwest NA Book Study",
+        "dayOfWeek": "Sunday",
+        "time": 68400,
+        "location": "Faith Presbyterian",
+        "address": {
+            "street": "9800 Stonestreet",
+            "city": "Louisville",
+            "state": "KY",
+            "zip": "40272"
+        },
+        "tags": [
+            {
+                "tag": "Evening",
+                "visible": false
+            },
+            {
+                "tag": "Open",
+                "visible": true
+            },
+            {
+                "tag": "Discussion",
+                "visible": true
+            },
+            {
+                "tag": "Literature Study",
+                "visible": true
+            },
+            {
+                "tag": "Kentucky",
+                "visible": false
+            }
+        ]
+    },
+    {
+        "groupName": "Another Chance",
+        "dayOfWeek": "Sunday",
+        "time": 70200,
+        "address": {
+            "street": "536 Frankfort Rd.",
+            "city": "Shelbyville",
+            "state": "KY",
+            "zip": "40065"
+        },
+        "tags": [
+            {
+                "tag": "Evening",
+                "visible": false
+            },
+            {
+                "tag": "Open",
+                "visible": true
+            },
+            {
+                "tag": "Discussion",
+                "visible": true
+            },
+            {
+                "tag": "Wheelchair Accessible",
+                "visible": true
+            },
+            {
+                "tag": "Kentucky",
+                "visible": false
+            }
+        ]
+    },
+    {
+        "groupName": "Home Sweet Home",
+        "dayOfWeek": "Sunday",
+        "time": 70200,
+        "location": "Next Step",
+        "address": {
+            "street": "103 Big Indian Road",
+            "city": "Corydon",
+            "state": "IN",
+            "zip": "47112"
+        },
+        "tags": [
+            {
+                "tag": "Evening",
+                "visible": false
+            },
+            {
+                "tag": "Open",
+                "visible": true
+            },
+            {
+                "tag": "Discussion",
+                "visible": true
+            },
+            {
+                "tag": "Indiana",
+                "visible": false
+            }
+        ]
+    },
+    {
+        "groupName": "The NA Meeting",
+        "dayOfWeek": "Sunday",
+        "time": 70200,
+        "location": "Grace Immanuel Church",
+        "address": {
+            "street": "1612 Story Ave.",
+            "city": "Louisville",
+            "state": "KY",
+            "zip": "40206"
+        },
+        "tags": [
+            {
+                "tag": "Evening",
+                "visible": false
+            },
+            {
+                "tag": "Open",
+                "visible": true
+            },
+            {
+                "tag": "Discussion",
+                "visible": true
+            },
+            {
+                "tag": "Kentucky",
+                "visible": false
+            }
+        ]
+    },
+    {
+        "groupName": "Walkin & Talkin Recovery",
+        "dayOfWeek": "Sunday",
+        "time": 70200,
+        "location": "Community Missionary Baptist Church Annex",
+        "address": {
+            "street": "4909 Indian Trail",
+            "city": "Louisville",
+            "state": "KY",
+            "zip": "40218"
+        },
+        "tags": [
+            {
+                "tag": "Evening",
+                "visible": false
+            },
+            {
+                "tag": "Open",
+                "visible": true
+            },
+            {
+                "tag": "Discussion",
+                "visible": true
+            },
+            {
+                "tag": "Wheelchair Accessible",
+                "visible": true
+            },
+            {
+                "tag": "Kentucky",
+                "visible": false
+            }
+        ]
+    },
+    {
+        "groupName": "The Solution Group",
+        "dayOfWeek": "Sunday",
+        "time": 72000,
+        "location": "Serenity Club",
+        "address": {
+            "street": "206 S Main St",
+            "city": "Elizabethtown",
+            "state": "KY",
+            "zip": "42701"
+        },
+        "tags": [
+            {
+                "tag": "Evening",
+                "visible": false
+            },
+            {
+                "tag": "Late",
+                "visible": false
+            },
+            {
+                "tag": "Kentucky",
+                "visible": false
+            }
+        ]
+    },
+    {
+        "groupName": "Me 4 You, You 4 Me",
+        "dayOfWeek": "Monday",
+        "time": 36000,
+        "address": {
+            "street": "3540 W Jefferson",
+            "city": "Louisville",
+            "state": "KY",
+            "zip": "40212"
+        },
+        "tags": [
+            {
+                "tag": "Morning",
+                "visible": false
+            },
+            {
+                "tag": "Kentucky",
+                "visible": false
+            }
+        ]
+    },
+    {
+        "groupName": "Caring Thru Sharing",
+        "dayOfWeek": "Monday",
+        "time": 43200,
+        "location": "Presbyterian Church",
+        "address": {
+            "street": "1722 Bardstown Rdac",
+            "city": "Louisville",
+            "state": "KY",
+            "zip": "40205"
+        },
+        "tags": [
+            {
+                "tag": "Morning",
+                "visible": false
+            },
+            {
+                "tag": "Afternoon",
+                "visible": false
+            },
+            {
+                "tag": "Open",
+                "visible": true
+            },
+            {
+                "tag": "Discussion",
+                "visible": true
+            },
+            {
+                "tag": "Chairperson's Choice",
+                "visible": true
+            },
+            {
+                "tag": "Wheelchair Accessible",
+                "visible": true
+            },
+            {
+                "tag": "Kentucky",
+                "visible": false
+            }
+        ]
+    },
+    {
+        "groupName": "Restored To Sanity",
+        "dayOfWeek": "Monday",
+        "time": 43200,
+        "address": {
+            "street": "2501 W Market St",
+            "city": "Louisville",
+            "state": "KY",
+            "zip": "40212"
+        },
+        "tags": [
+            {
+                "tag": "Morning",
+                "visible": false
+            },
+            {
+                "tag": "Afternoon",
+                "visible": false
+            },
+            {
+                "tag": "Open",
+                "visible": true
+            },
+            {
+                "tag": "Discussion",
+                "visible": true
+            },
+            {
+                "tag": "Kentucky",
+                "visible": false
+            }
+        ]
+    },
+    {
+        "groupName": "Primary Purpose",
+        "dayOfWeek": "Monday",
+        "time": 66600,
+        "location": "St. Pauls Episcopal Church",
+        "address": {
+            "street": "321 E. Market St.",
+            "city": "Jeffersonville",
+            "state": "IN",
+            "zip": "47130"
+        },
+        "tags": [
+            {
+                "tag": "Evening",
+                "visible": false
+            },
+            {
+                "tag": "Open",
+                "visible": true
+            },
+            {
+                "tag": "Discussion",
+                "visible": true
+            },
+            {
+                "tag": "Wheelchair Accessible",
+                "visible": true
+            },
+            {
+                "tag": "Indiana",
+                "visible": false
+            }
+        ]
+    },
+    {
+        "groupName": "Never Alone",
+        "dayOfWeek": "Monday",
+        "time": 66600,
+        "location": "H20 Church",
+        "address": {
+            "street": "485 Mann Ave.",
+            "city": "Austin",
+            "state": "IN",
+            "zip": "47102"
+        },
+        "tags": [
+            {
+                "tag": "Evening",
+                "visible": false
+            },
+            {
+                "tag": "Open",
+                "visible": true
+            },
+            {
+                "tag": "Discussion",
+                "visible": true
+            },
+            {
+                "tag": "Speaker",
+                "visible": true
+            },
+            {
+                "tag": "Indiana",
+                "visible": false
+            }
+        ]
+    },
+    {
+        "groupName": "Why Are We Here",
+        "dayOfWeek": "Monday",
+        "time": 68400,
+        "location": "West End Baptist Church",
+        "address": {
+            "street": "1400 S. Fourth St.",
+            "city": "Louisville",
+            "state": "KY",
+            "zip": "40208"
+        },
+        "tags": [
+            {
+                "tag": "Evening",
+                "visible": false
+            },
+            {
+                "tag": "Open",
+                "visible": true
+            },
+            {
+                "tag": "Discussion",
+                "visible": true
+            },
+            {
+                "tag": "Kentucky",
+                "visible": false
+            }
+        ]
+    },
+    {
+        "groupName": "Enough is Enough",
+        "dayOfWeek": "Monday",
+        "time": 68400,
+        "location": "Memphis Christian Church",
+        "address": {
+            "street": "13503 Memphis Bluelick Rd.",
+            "city": "Memphis",
+            "state": "IN",
+            "zip": "47143"
+        },
+        "tags": [
+            {
+                "tag": "Evening",
+                "visible": false
+            },
+            {
+                "tag": "Indiana",
+                "visible": false
+            }
+        ]
+    },
+    {
+        "groupName": "Against All Odds",
+        "dayOfWeek": "Monday",
+        "time": 70200,
+        "location": "Church Of Our Merciful Savior",
+        "address": {
+            "street": "473 S. 11th St.",
+            "city": "Louisville",
+            "state": "KY",
+            "zip": "40203"
+        },
+        "tags": [
+            {
+                "tag": "Evening",
+                "visible": false
+            },
+            {
+                "tag": "Open",
+                "visible": true
+            },
+            {
+                "tag": "Kentucky",
+                "visible": false
+            }
+        ]
+    },
+    {
+        "groupName": "Dope Or Us",
+        "dayOfWeek": "Monday",
+        "time": 70200,
+        "location": "Floyd County Token Club Upstairs",
+        "address": {
+            "street": "506 Pearl St.",
+            "city": "New Albany",
+            "state": "IN",
+            "zip": "47150"
+        },
+        "tags": [
+            {
+                "tag": "Evening",
+                "visible": false
+            },
+            {
+                "tag": "Open",
+                "visible": true
+            },
+            {
+                "tag": "Discussion",
+                "visible": true
+            },
+            {
+                "tag": "Indiana",
+                "visible": false
+            }
+        ]
+    },
+    {
+        "groupName": "Recovery in Hillview",
+        "dayOfWeek": "Monday",
+        "time": 70200,
+        "location": "Hillview Recreation Center",
+        "address": {
+            "street": "298 Prairie Drive",
+            "city": "Louisville",
+            "state": "KY",
+            "zip": "40229"
+        },
+        "tags": [
+            {
+                "tag": "Evening",
+                "visible": false
+            },
+            {
+                "tag": "Open",
+                "visible": true
+            },
+            {
+                "tag": "Kentucky",
+                "visible": false
+            }
+        ]
+    },
+    {
+        "groupName": "Welcome Home",
+        "dayOfWeek": "Monday",
+        "time": 72000,
+        "location": "EZ Duz It Club",
+        "address": {
+            "street": "6605 Lower Hunters Trace",
+            "city": "Louisville",
+            "state": "KY",
+            "zip": "40258"
+        },
+        "tags": [
+            {
+                "tag": "Evening",
+                "visible": false
+            },
+            {
+                "tag": "Late",
+                "visible": false
+            },
+            {
+                "tag": "Open",
+                "visible": true
+            },
+            {
+                "tag": "Literature Study",
+                "visible": true
+            },
+            {
+                "tag": "Kentucky",
+                "visible": false
+            }
+        ]
+    },
+    {
+        "groupName": "Just For Today",
+        "dayOfWeek": "Monday",
+        "time": 72000,
+        "location": "Church Of The Ascension",
+        "address": {
+            "street": "211 N. 3rd St.",
+            "city": "Bardstown",
+            "state": "KY",
+            "zip": "40004"
+        },
+        "tags": [
+            {
+                "tag": "Evening",
+                "visible": false
+            },
+            {
+                "tag": "Late",
+                "visible": false
+            },
+            {
+                "tag": "Open",
+                "visible": true
+            },
+            {
+                "tag": "Discussion",
+                "visible": true
+            },
+            {
+                "tag": "Kentucky",
+                "visible": false
+            }
+        ]
+    },
+    {
+        "groupName": "Acceptance Place",
+        "dayOfWeek": "Monday",
+        "time": 72000,
+        "address": {
+            "street": "1370 Hwy 79",
+            "city": "Irvington",
+            "state": "KY",
+            "zip": "40146"
+        },
+        "tags": [
+            {
+                "tag": "Evening",
+                "visible": false
+            },
+            {
+                "tag": "Late",
+                "visible": false
+            },
+            {
+                "tag": "Open",
+                "visible": true
+            },
+            {
+                "tag": "Discussion",
+                "visible": true
+            },
+            {
+                "tag": "Kentucky",
+                "visible": false
+            }
+        ]
+    },
+    {
+        "groupName": "Living In The Solution",
+        "dayOfWeek": "Monday",
+        "time": 72000,
+        "location": "Safe Harbor Club",
+        "address": {
+            "street": "200 S Joe Prather HWY",
+            "city": "Vine Grove",
+            "state": "KY",
+            "zip": "40175"
+        },
+        "tags": [
+            {
+                "tag": "Evening",
+                "visible": false
+            },
+            {
+                "tag": "Late",
+                "visible": false
+            },
+            {
+                "tag": "Kentucky",
+                "visible": false
+            }
+        ]
+    },
+    {
+        "groupName": "Point Of Freedom",
+        "dayOfWeek": "Monday",
+        "time": 79200,
+        "location": "Chapel Of St. Philip Neri",
+        "address": {
+            "street": "236 Woodbine St.",
+            "city": "Louisville",
+            "state": "KY",
+            "zip": "40208"
+        },
+        "tags": [
+            {
+                "tag": "Late",
+                "visible": false
+            },
+            {
+                "tag": "Open",
+                "visible": true
+            },
+            {
+                "tag": "Discussion",
+                "visible": true
+            },
+            {
+                "tag": "Kentucky",
+                "visible": false
+            }
+        ]
+    },
+    {
+        "groupName": "Group 53",
+        "dayOfWeek": "Tuesday",
+        "time": 41400,
+        "location": "St Paul Evangal Lutheran",
+        "address": {
+            "street": "2304 Crums Lane",
+            "city": "Louisville",
+            "state": "KY",
+            "zip": "40216"
+        },
+        "tags": [
+            {
+                "tag": "Morning",
+                "visible": false
+            },
+            {
+                "tag": "Open",
+                "visible": true
+            },
+            {
+                "tag": "Discussion",
+                "visible": true
+            },
+            {
+                "tag": "Wheelchair Accessible",
+                "visible": true
+            },
+            {
+                "tag": "Kentucky",
+                "visible": false
+            }
+        ]
+    },
+    {
+        "groupName": "More will be revealed",
+        "dayOfWeek": "Tuesday",
+        "time": 43200,
+        "location": "Highland Vineyard",
+        "address": {
+            "street": "1649 Cowling Avenue",
+            "city": "Louisville",
+            "state": "KY",
+            "zip": "40204"
+        },
+        "tags": [
+            {
+                "tag": "Morning",
+                "visible": false
+            },
+            {
+                "tag": "Afternoon",
+                "visible": false
+            },
+            {
+                "tag": "Literature Study",
+                "visible": true
+            },
+            {
+                "tag": "Kentucky",
+                "visible": false
+            }
+        ]
+    },
+    {
+        "groupName": "Gratefully Dedicated",
+        "dayOfWeek": "Tuesday",
+        "time": 43200,
+        "location": "Zion Baptist Church",
+        "address": {
+            "street": "2200 W. Muhammad Ali Blvd",
+            "city": "Louisville",
+            "state": "KY",
+            "zip": "40212"
+        },
+        "tags": [
+            {
+                "tag": "Morning",
+                "visible": false
+            },
+            {
+                "tag": "Afternoon",
+                "visible": false
+            },
+            {
+                "tag": "Open",
+                "visible": true
+            },
+            {
+                "tag": "Discussion",
+                "visible": true
+            },
+            {
+                "tag": "Basic Text Study",
+                "visible": true
+            },
+            {
+                "tag": "Kentucky",
+                "visible": false
+            }
+        ]
+    },
+    {
+        "groupName": "Agape Group",
+        "dayOfWeek": "Tuesday",
+        "time": 45000,
+        "location": "Northeast Clifton Campus",
+        "address": {
+            "street": "131 Vernon Ave.",
+            "city": "Louisville",
+            "state": "KY",
+            "zip": "40206"
+        },
+        "tags": [
+            {
+                "tag": "Afternoon",
+                "visible": false
+            },
+            {
+                "tag": "Open",
+                "visible": true
+            },
+            {
+                "tag": "Wheelchair Accessible",
+                "visible": true
+            },
+            {
+                "tag": "Kentucky",
+                "visible": false
+            }
+        ]
+    },
+    {
+        "groupName": "Searching For Serenity",
+        "dayOfWeek": "Tuesday",
+        "time": 64800,
+        "location": "Safe Harbor Club",
+        "address": {
+            "street": "200 S Joe Prather Hwy",
+            "city": "Vine Grove",
+            "state": "KY",
+            "zip": "40175"
+        },
+        "tags": [
+            {
+                "tag": "Evening",
+                "visible": false
+            },
+            {
+                "tag": "Kentucky",
+                "visible": false
+            }
+        ]
+    },
+    {
+        "groupName": "Freedom Spirit",
+        "dayOfWeek": "Tuesday",
+        "time": 66600,
+        "location": "V.O.A. Building",
+        "address": {
+            "street": "1436 S. Shelby St.",
+            "city": "Louisville",
+            "state": "KY",
+            "zip": "40216"
+        },
+        "tags": [
+            {
+                "tag": "Evening",
+                "visible": false
+            },
+            {
+                "tag": "Open",
+                "visible": true
+            },
+            {
+                "tag": "Discussion",
+                "visible": true
+            },
+            {
+                "tag": "Kentucky",
+                "visible": false
+            }
+        ]
+    },
+    {
+        "groupName": "Women Empowering Women In Recovery",
+        "dayOfWeek": "Tuesday",
+        "time": 66600,
+        "location": "Next Step",
+        "address": {
+            "street": "103 Big Indian Road",
+            "city": "Corydon",
+            "state": "IN",
+            "zip": "47112"
+        },
+        "tags": [
+            {
+                "tag": "Evening",
+                "visible": false
+            },
+            {
+                "tag": "Open",
+                "visible": true
+            },
+            {
+                "tag": "Discussion",
+                "visible": true
+            },
+            {
+                "tag": "Indiana",
+                "visible": false
+            }
+        ]
+    },
+    {
+        "groupName": "Ties That Bind",
+        "dayOfWeek": "Tuesday",
+        "time": 68400,
+        "location": "Hebron Presbyterian Church Activity Center",
+        "address": {
+            "street": "4765 N. Preston Hwy",
+            "city": "Shepherdsville",
+            "state": "KY",
+            "zip": "40165"
+        },
+        "tags": [
+            {
+                "tag": "Evening",
+                "visible": false
+            },
+            {
+                "tag": "Open",
+                "visible": true
+            },
+            {
+                "tag": "Discussion",
+                "visible": true
+            },
+            {
+                "tag": "Kentucky",
+                "visible": false
+            }
+        ]
+    },
+    {
+        "groupName": "We Too Recover",
+        "dayOfWeek": "Tuesday",
+        "time": 68400,
+        "location": "Green St. Baptist Church",
+        "address": {
+            "street": "519 E. Gray St.",
+            "city": "Louisville",
+            "state": "KY",
+            "zip": "40202"
+        },
+        "tags": [
+            {
+                "tag": "Evening",
+                "visible": false
+            },
+            {
+                "tag": "Open",
+                "visible": true
+            },
+            {
+                "tag": "Discussion",
+                "visible": true
+            },
+            {
+                "tag": "Kentucky",
+                "visible": false
+            }
+        ]
+    },
+    {
+        "groupName": "Sweet Surrender",
+        "dayOfWeek": "Tuesday",
+        "time": 70200,
+        "location": "Lukes Church",
+        "address": {
+            "street": "329 Walnut ST.",
+            "city": "Jeffersonville",
+            "state": "IN",
+            "zip": "47130"
+        },
+        "tags": [
+            {
+                "tag": "Evening",
+                "visible": false
+            },
+            {
+                "tag": "Open",
+                "visible": true
+            },
+            {
+                "tag": "Closed",
+                "visible": true
+            },
+            {
+                "tag": "Discussion",
+                "visible": true
+            },
+            {
+                "tag": "Speaker",
+                "visible": true
+            },
+            {
+                "tag": "Indiana",
+                "visible": false
+            }
+        ]
+    },
+    {
+        "groupName": "Another Chance",
+        "dayOfWeek": "Tuesday",
+        "time": 70200,
+        "address": {
+            "street": "536 Frankfort Rd",
+            "city": "Shelbyville",
+            "state": "KY",
+            "zip": "40065"
+        },
+        "tags": [
+            {
+                "tag": "Evening",
+                "visible": false
+            },
+            {
+                "tag": "Open",
+                "visible": true
+            },
+            {
+                "tag": "Literature Study",
+                "visible": true
+            },
+            {
+                "tag": "Kentucky",
+                "visible": false
+            }
+        ]
+    },
+    {
+        "groupName": "Stop The Madness",
+        "dayOfWeek": "Tuesday",
+        "time": 70200,
+        "location": "Peace Presbyterian Church",
+        "address": {
+            "street": "4210 E. Indian Trail",
+            "city": "Louisville",
+            "state": "KY",
+            "zip": "40213"
+        },
+        "tags": [
+            {
+                "tag": "Evening",
+                "visible": false
+            },
+            {
+                "tag": "Open",
+                "visible": true
+            },
+            {
+                "tag": "Basic Text Study",
+                "visible": true
+            },
+            {
+                "tag": "Kentucky",
+                "visible": false
+            }
+        ]
+    },
+    {
+        "groupName": "Acceptance Place",
+        "dayOfWeek": "Tuesday",
+        "time": 72000,
+        "address": {
+            "street": "1370 Hwy 79",
+            "city": "Irvington",
+            "state": "KY",
+            "zip": "40146"
+        },
+        "tags": [
+            {
+                "tag": "Evening",
+                "visible": false
+            },
+            {
+                "tag": "Late",
+                "visible": false
+            },
+            {
+                "tag": "Open",
+                "visible": true
+            },
+            {
+                "tag": "Discussion",
+                "visible": true
+            },
+            {
+                "tag": "Kentucky",
+                "visible": false
+            }
+        ]
+    },
+    {
+        "groupName": "Just For Today",
+        "dayOfWeek": "Tuesday",
+        "time": 72000,
+        "location": "Church Of The Ascension",
+        "address": {
+            "street": "211N. 3rd St.",
+            "city": "Bardstown",
+            "state": "KY",
+            "zip": "40004"
+        },
+        "tags": [
+            {
+                "tag": "Evening",
+                "visible": false
+            },
+            {
+                "tag": "Late",
+                "visible": false
+            },
+            {
+                "tag": "Open",
+                "visible": true
+            },
+            {
+                "tag": "Discussion",
+                "visible": true
+            },
+            {
+                "tag": "Kentucky",
+                "visible": false
+            }
+        ]
+    },
+    {
+        "groupName": "Take It E-Z",
+        "dayOfWeek": "Tuesday",
+        "time": 72000,
+        "location": "Hillsdale Baptist Church",
+        "address": {
+            "street": "4714 E. Pages Ln.",
+            "city": "Louisville",
+            "state": "KY",
+            "zip": "40272"
+        },
+        "tags": [
+            {
+                "tag": "Evening",
+                "visible": false
+            },
+            {
+                "tag": "Late",
+                "visible": false
+            },
+            {
+                "tag": "Open",
+                "visible": true
+            },
+            {
+                "tag": "Discussion",
+                "visible": true
+            },
+            {
+                "tag": "Wheelchair Accessible",
+                "visible": true
+            },
+            {
+                "tag": "Kentucky",
+                "visible": false
+            }
+        ]
+    },
+    {
+        "groupName": "Welcome Home",
+        "dayOfWeek": "Tuesday",
+        "time": 72000,
+        "location": "EZ Duz It Club",
+        "address": {
+            "street": "6605 Lower Hunters Trace",
+            "city": "Louisville",
+            "state": "KY",
+            "zip": "40258"
+        },
+        "tags": [
+            {
+                "tag": "Evening",
+                "visible": false
+            },
+            {
+                "tag": "Late",
+                "visible": false
+            },
+            {
+                "tag": "Open",
+                "visible": true
+            },
+            {
+                "tag": "Discussion",
+                "visible": true
+            },
+            {
+                "tag": "Kentucky",
+                "visible": false
+            }
+        ]
+    },
+    {
+        "groupName": "Another Day Clean",
+        "dayOfWeek": "Tuesday",
+        "time": 72000,
+        "location": "Ice House",
+        "address": {
+            "street": "1400 S. Shelby St.",
+            "city": "Louisville",
+            "state": "KY",
+            "zip": "40217"
+        },
+        "tags": [
+            {
+                "tag": "Evening",
+                "visible": false
+            },
+            {
+                "tag": "Late",
+                "visible": false
+            },
+            {
+                "tag": "Open",
+                "visible": true
+            },
+            {
+                "tag": "Discussion",
+                "visible": true
+            },
+            {
+                "tag": "Kentucky",
+                "visible": false
+            }
+        ]
+    },
+    {
+        "groupName": "Another Day Clean",
+        "dayOfWeek": "Tuesday",
+        "time": 72000,
+        "location": "",
+        "address": {
+            "street": "1400 S. Shelby Street",
+            "city": "Louisville",
+            "state": "KY",
+            "zip": "40217"
+        },
+        "tags": [
+            {
+                "tag": "Evening",
+                "visible": false
+            },
+            {
+                "tag": "Late",
+                "visible": false
+            },
+            {
+                "tag": "Open",
+                "visible": true
+            },
+            {
+                "tag": "Speaker",
+                "visible": true
+            },
+            {
+                "tag": "Kentucky",
+                "visible": false
+            }
+        ]
+    },
+    {
+        "groupName": "Gift Of Desperation",
+        "dayOfWeek": "Tuesday",
+        "time": 72000,
+        "location": "The Gift House",
+        "address": {
+            "street": "107 West Third St.",
+            "city": "Hardinsburg",
+            "state": "KY",
+            "zip": "40143"
+        },
+        "tags": [
+            {
+                "tag": "Evening",
+                "visible": false
+            },
+            {
+                "tag": "Late",
+                "visible": false
+            },
+            {
+                "tag": "Open",
+                "visible": true
+            },
+            {
+                "tag": "Discussion",
+                "visible": true
+            },
+            {
+                "tag": "Kentucky",
+                "visible": false
+            }
+        ]
+    },
+    {
+        "groupName": "Caring Thru Sharing",
+        "dayOfWeek": "Wednesday",
+        "time": 43200,
+        "location": "Bardstown Road Presbyterian Church",
+        "address": {
+            "street": "1722 Bardstown Road",
+            "city": "Louisville",
+            "state": "KY",
+            "zip": "40205"
+        },
+        "tags": [
+            {
+                "tag": "Morning",
+                "visible": false
+            },
+            {
+                "tag": "Afternoon",
+                "visible": false
+            },
+            {
+                "tag": "Open",
+                "visible": true
+            },
+            {
+                "tag": "Discussion",
+                "visible": true
+            },
+            {
+                "tag": "Chairperson's Choice",
+                "visible": true
+            },
+            {
+                "tag": "Wheelchair Accessible",
+                "visible": true
+            },
+            {
+                "tag": "Kentucky",
+                "visible": false
+            }
+        ]
+    },
+    {
+        "groupName": "University Of Surrender",
+        "dayOfWeek": "Wednesday",
+        "time": 43200,
+        "location": "College Heights Memorial Methodist Church",
+        "address": {
+            "street": "710 College St. Road",
+            "city": "Elizabethtown",
+            "state": "KY",
+            "zip": "42701"
+        },
+        "tags": [
+            {
+                "tag": "Morning",
+                "visible": false
+            },
+            {
+                "tag": "Afternoon",
+                "visible": false
+            },
+            {
+                "tag": "Open",
+                "visible": true
+            },
+            {
+                "tag": "Kentucky",
+                "visible": false
+            }
+        ]
+    },
+    {
+        "groupName": "Freedom To Live",
+        "dayOfWeek": "Wednesday",
+        "time": 43200,
+        "location": "Davidson Memorial Methodist Church",
+        "address": {
+            "street": "265 S. Buckman St",
+            "city": "Shepherdsville",
+            "state": "KY",
+            "zip": "40165"
+        },
+        "tags": [
+            {
+                "tag": "Morning",
+                "visible": false
+            },
+            {
+                "tag": "Afternoon",
+                "visible": false
+            },
+            {
+                "tag": "Open",
+                "visible": true
+            },
+            {
+                "tag": "Discussion",
+                "visible": true
+            },
+            {
+                "tag": "Kentucky",
+                "visible": false
+            }
+        ]
+    },
+    {
+        "groupName": "A Vision Of Hope",
+        "dayOfWeek": "Wednesday",
+        "time": 43200,
+        "location": "Zion Baptist Church",
+        "address": {
+            "street": "2200 W. Muhammad Ali Blvd",
+            "city": "Louisville",
+            "state": "KY",
+            "zip": "40212"
+        },
+        "tags": [
+            {
+                "tag": "Morning",
+                "visible": false
+            },
+            {
+                "tag": "Afternoon",
+                "visible": false
+            },
+            {
+                "tag": "Open",
+                "visible": true
+            },
+            {
+                "tag": "Basic Text Study",
+                "visible": true
+            },
+            {
+                "tag": "Wheelchair Accessible",
+                "visible": true
+            },
+            {
+                "tag": "Kentucky",
+                "visible": false
+            }
+        ]
+    },
+    {
+        "groupName": "Searching For Serenity",
+        "dayOfWeek": "Wednesday",
+        "time": 64800,
+        "location": "Safe Harbor Club",
+        "address": {
+            "street": "200 S Joe Prather Hwy",
+            "city": "Vine Grove",
+            "state": "KY",
+            "zip": "40175"
+        },
+        "tags": [
+            {
+                "tag": "Evening",
+                "visible": false
+            },
+            {
+                "tag": "Kentucky",
+                "visible": false
+            }
+        ]
+    },
+    {
+        "groupName": "New Way",
+        "dayOfWeek": "Wednesday",
+        "time": 64800,
+        "address": {
+            "street": "7509 Charlestown Pike",
+            "city": "Charlestown",
+            "state": "IN",
+            "zip": "47111"
+        },
+        "tags": [
+            {
+                "tag": "Evening",
+                "visible": false
+            },
+            {
+                "tag": "Indiana",
+                "visible": false
+            }
+        ]
+    },
+    {
+        "groupName": "Escape From Denial",
+        "dayOfWeek": "Wednesday",
+        "time": 68400,
+        "location": "Lutheran Church",
+        "address": {
+            "street": "417 E. Broadway",
+            "city": "Louisville",
+            "state": "KY",
+            "zip": "40202"
+        },
+        "tags": [
+            {
+                "tag": "Evening",
+                "visible": false
+            },
+            {
+                "tag": "Open",
+                "visible": true
+            },
+            {
+                "tag": "Discussion",
+                "visible": true
+            },
+            {
+                "tag": "Wheelchair Accessible",
+                "visible": true
+            },
+            {
+                "tag": "Kentucky",
+                "visible": false
+            }
+        ]
+    },
+    {
+        "groupName": "Home Sweet Home",
+        "dayOfWeek": "Wednesday",
+        "time": 70200,
+        "location": "Next Step",
+        "address": {
+            "street": "103 Big Indian Road",
+            "city": "Corydon",
+            "state": "IN",
+            "zip": "47112"
+        },
+        "tags": [
+            {
+                "tag": "Evening",
+                "visible": false
+            },
+            {
+                "tag": "Open",
+                "visible": true
+            },
+            {
+                "tag": "Discussion",
+                "visible": true
+            },
+            {
+                "tag": "Indiana",
+                "visible": false
+            }
+        ]
+    },
+    {
+        "groupName": "How It Works",
+        "dayOfWeek": "Wednesday",
+        "time": 70200,
+        "location": "Resurrection Church",
+        "address": {
+            "street": "4100 Southern Parkway",
+            "city": "Louisville",
+            "state": "KY",
+            "zip": "40214"
+        },
+        "tags": [
+            {
+                "tag": "Evening",
+                "visible": false
+            },
+            {
+                "tag": "Open",
+                "visible": true
+            },
+            {
+                "tag": "Discussion",
+                "visible": true
+            },
+            {
+                "tag": "Wheelchair Accessible",
+                "visible": true
+            },
+            {
+                "tag": "Kentucky",
+                "visible": false
+            }
+        ]
+    },
+    {
+        "groupName": "Just For Today",
+        "dayOfWeek": "Wednesday",
+        "time": 72000,
+        "location": "Nelson Co. Library",
+        "address": {
+            "street": "201 Cathedral Manor",
+            "city": "Bardstown",
+            "state": "KY",
+            "zip": "40004"
+        },
+        "tags": [
+            {
+                "tag": "Evening",
+                "visible": false
+            },
+            {
+                "tag": "Late",
+                "visible": false
+            },
+            {
+                "tag": "Open",
+                "visible": true
+            },
+            {
+                "tag": "Discussion",
+                "visible": true
+            },
+            {
+                "tag": "Kentucky",
+                "visible": false
+            }
+        ]
+    },
+    {
+        "groupName": "The Phoenix Group",
+        "dayOfWeek": "Wednesday",
+        "time": 72000,
+        "location": "Pigeon Roost Back Room",
+        "address": {
+            "street": "6106 Price Lane",
+            "city": "Louisville",
+            "state": "KY",
+            "zip": "40229"
+        },
+        "tags": [
+            {
+                "tag": "Evening",
+                "visible": false
+            },
+            {
+                "tag": "Late",
+                "visible": false
+            },
+            {
+                "tag": "Open",
+                "visible": true
+            },
+            {
+                "tag": "Chairperson's Choice",
+                "visible": true
+            },
+            {
+                "tag": "Wheelchair Accessible",
+                "visible": true
+            },
+            {
+                "tag": "Kentucky",
+                "visible": false
+            }
+        ]
+    },
+    {
+        "groupName": "Step Up Group",
+        "dayOfWeek": "Wednesday",
+        "time": 72000,
+        "location": "The Healing Place",
+        "address": {
+            "street": "1000 W. Market ",
+            "city": "Louisville",
+            "state": "KY",
+            "zip": "40202"
+        },
+        "tags": [
+            {
+                "tag": "Evening",
+                "visible": false
+            },
+            {
+                "tag": "Late",
+                "visible": false
+            },
+            {
+                "tag": "Open",
+                "visible": true
+            },
+            {
+                "tag": "Discussion",
+                "visible": true
+            },
+            {
+                "tag": "Speaker",
+                "visible": true
+            },
+            {
+                "tag": "Literature Study",
+                "visible": true
+            },
+            {
+                "tag": "Kentucky",
+                "visible": false
+            }
+        ]
+    },
+    {
+        "groupName": "The Junkie Garage Group",
+        "dayOfWeek": "Wednesday",
+        "time": 72000,
+        "location": "Ez Duz It Club Garage",
+        "address": {
+            "street": "6605 Lower Hunters Trace",
+            "city": "Louisville",
+            "state": "KY",
+            "zip": "40258"
+        },
+        "tags": [
+            {
+                "tag": "Evening",
+                "visible": false
+            },
+            {
+                "tag": "Late",
+                "visible": false
+            },
+            {
+                "tag": "Open",
+                "visible": true
+            },
+            {
+                "tag": "Discussion",
+                "visible": true
+            },
+            {
+                "tag": "Kentucky",
+                "visible": false
+            }
+        ]
+    },
+    {
+        "groupName": "Point Of Freedom",
+        "dayOfWeek": "Wednesday",
+        "time": 79200,
+        "location": "Chapel Of St. Philip Neri",
+        "address": {
+            "street": "236 Woodbine St.",
+            "city": "Louisville",
+            "state": "KY",
+            "zip": "40208"
+        },
+        "tags": [
+            {
+                "tag": "Late",
+                "visible": false
+            },
+            {
+                "tag": "Open",
+                "visible": true
+            },
+            {
+                "tag": "Discussion",
+                "visible": true
+            },
+            {
+                "tag": "Kentucky",
+                "visible": false
+            }
+        ]
+    },
+    {
+        "groupName": "Gratefully Dedicated",
+        "dayOfWeek": "Thursday",
+        "time": 43200,
+        "location": "Zion Baptist Church",
+        "address": {
+            "street": "2200 W Muhammad Ali Blvd",
+            "city": "Louisville",
+            "state": "KY",
+            "zip": "40212"
+        },
+        "tags": [
+            {
+                "tag": "Morning",
+                "visible": false
+            },
+            {
+                "tag": "Afternoon",
+                "visible": false
+            },
+            {
+                "tag": "Open",
+                "visible": true
+            },
+            {
+                "tag": "Discussion",
+                "visible": true
+            },
+            {
+                "tag": "Basic Text Study",
+                "visible": true
+            },
+            {
+                "tag": "Kentucky",
+                "visible": false
+            }
+        ]
+    },
+    {
+        "groupName": "Agape Group",
+        "dayOfWeek": "Thursday",
+        "time": 45000,
+        "location": "Northeast Clifton Campus",
+        "address": {
+            "street": "131 Vernon Ave.",
+            "city": "Louisville",
+            "state": "KY",
+            "zip": "40206"
+        },
+        "tags": [
+            {
+                "tag": "Afternoon",
+                "visible": false
+            },
+            {
+                "tag": "Open",
+                "visible": true
+            },
+            {
+                "tag": "Discussion",
+                "visible": true
+            },
+            {
+                "tag": "Literature Study",
+                "visible": true
+            },
+            {
+                "tag": "Wheelchair Accessible",
+                "visible": true
+            },
+            {
+                "tag": "Kentucky",
+                "visible": false
+            }
+        ]
+    },
+    {
+        "groupName": "Recovery @ Large",
+        "dayOfWeek": "Thursday",
+        "time": 64800,
+        "location": "Safe Harbor Club",
+        "address": {
+            "street": "200 S Joe Prather Hwy",
+            "city": "Vine Grove",
+            "state": "KY",
+            "zip": "40175"
+        },
+        "tags": [
+            {
+                "tag": "Evening",
+                "visible": false
+            },
+            {
+                "tag": "Kentucky",
+                "visible": false
+            }
+        ]
+    },
+    {
+        "groupName": "Freedom To Live",
+        "dayOfWeek": "Thursday",
+        "time": 66600,
+        "location": "Davidson Memorial Baptist Church",
+        "address": {
+            "street": "265 S. Buckman St.",
+            "city": "Shepherdsville",
+            "state": "KY",
+            "zip": "40165"
+        },
+        "tags": [
+            {
+                "tag": "Evening",
+                "visible": false
+            },
+            {
+                "tag": "Open",
+                "visible": true
+            },
+            {
+                "tag": "Discussion",
+                "visible": true
+            },
+            {
+                "tag": "Kentucky",
+                "visible": false
+            }
+        ]
+    },
+    {
+        "groupName": "Cool Changes",
+        "dayOfWeek": "Thursday",
+        "time": 68400,
+        "location": "Interlink Counseling Services 1st of month LS",
+        "address": {
+            "street": "8311 Preston Hwy",
+            "city": "Louisville",
+            "state": "KY",
+            "zip": "40219"
+        },
+        "tags": [
+            {
+                "tag": "Evening",
+                "visible": false
+            },
+            {
+                "tag": "Open",
+                "visible": true
+            },
+            {
+                "tag": "Discussion",
+                "visible": true
+            },
+            {
+                "tag": "Speaker",
+                "visible": true
+            },
+            {
+                "tag": "Literature Study",
+                "visible": true
+            },
+            {
+                "tag": "Kentucky",
+                "visible": false
+            }
+        ]
+    },
+    {
+        "groupName": "Recovery Today",
+        "dayOfWeek": "Thursday",
+        "time": 68400,
+        "location": "Beargrass Christian Church Room 202",
+        "address": {
+            "street": "4100 Shelbyville Rd",
+            "city": "Louisville",
+            "state": "KY",
+            "zip": "40207"
+        },
+        "tags": [
+            {
+                "tag": "Evening",
+                "visible": false
+            },
+            {
+                "tag": "Open",
+                "visible": true
+            },
+            {
+                "tag": "Discussion",
+                "visible": true
+            },
+            {
+                "tag": "Wheelchair Accessible",
+                "visible": true
+            },
+            {
+                "tag": "Kentucky",
+                "visible": false
+            }
+        ]
+    },
+    {
+        "groupName": "Hope 4 Us",
+        "dayOfWeek": "Thursday",
+        "time": 68400,
+        "address": {
+            "street": "1092 Community Way",
+            "city": "Scottsburg",
+            "state": "IN",
+            "zip": "47170"
+        },
+        "tags": [
+            {
+                "tag": "Evening",
+                "visible": false
+            },
+            {
+                "tag": "Open",
+                "visible": true
+            },
+            {
+                "tag": "Discussion",
+                "visible": true
+            },
+            {
+                "tag": "Speaker",
+                "visible": true
+            },
+            {
+                "tag": "Indiana",
+                "visible": false
+            }
+        ]
+    },
+    {
+        "groupName": "Enough Is Enough",
+        "dayOfWeek": "Thursday",
+        "time": 70200,
+        "address": {
+            "street": "3620 W. Broadway",
+            "city": "Louisville",
+            "state": "KY",
+            "zip": "40211"
+        },
+        "tags": [
+            {
+                "tag": "Evening",
+                "visible": false
+            },
+            {
+                "tag": "Open",
+                "visible": true
+            },
+            {
+                "tag": "Discussion",
+                "visible": true
+            },
+            {
+                "tag": "Speaker",
+                "visible": true
+            },
+            {
+                "tag": "Wheelchair Accessible",
+                "visible": true
+            },
+            {
+                "tag": "Kentucky",
+                "visible": false
+            }
+        ]
+    },
+    {
+        "groupName": "HOW",
+        "dayOfWeek": "Thursday",
+        "time": 70200,
+        "location": "Northside Christian Church",
+        "address": {
+            "street": "4407 Charlestown Road",
+            "city": "New Albany",
+            "state": "IN",
+            "zip": "47150"
+        },
+        "tags": [
+            {
+                "tag": "Evening",
+                "visible": false
+            },
+            {
+                "tag": "Open",
+                "visible": true
+            },
+            {
+                "tag": "Discussion",
+                "visible": true
+            },
+            {
+                "tag": "Indiana",
+                "visible": false
+            }
+        ]
+    },
+    {
+        "groupName": "Acceptance Place",
+        "dayOfWeek": "Thursday",
+        "time": 72000,
+        "address": {
+            "street": "1370 Hwy 79",
+            "city": "Irvington",
+            "state": "KY",
+            "zip": "40146"
+        },
+        "tags": [
+            {
+                "tag": "Evening",
+                "visible": false
+            },
+            {
+                "tag": "Late",
+                "visible": false
+            },
+            {
+                "tag": "Open",
+                "visible": true
+            },
+            {
+                "tag": "Closed",
+                "visible": true
+            },
+            {
+                "tag": "Discussion",
+                "visible": true
+            },
+            {
+                "tag": "Kentucky",
+                "visible": false
+            }
+        ]
+    },
+    {
+        "groupName": "Sanctuary",
+        "dayOfWeek": "Thursday",
+        "time": 72000,
+        "address": {
+            "street": "2501 W Market St",
+            "city": "Louisville",
+            "state": "KY",
+            "zip": "40212"
+        },
+        "tags": [
+            {
+                "tag": "Evening",
+                "visible": false
+            },
+            {
+                "tag": "Late",
+                "visible": false
+            },
+            {
+                "tag": "Open",
+                "visible": true
+            },
+            {
+                "tag": "Chairperson's Choice",
+                "visible": true
+            },
+            {
+                "tag": "Kentucky",
+                "visible": false
+            }
+        ]
+    },
+    {
+        "groupName": "NA Meeting",
+        "dayOfWeek": "Thursday",
+        "time": 72000,
+        "location": "Lincoln Trail Hospital",
+        "address": {
+            "street": "3909 S. Wilson Rd.",
+            "city": "Radcliff",
+            "state": "KY",
+            "zip": "42701"
+        },
+        "tags": [
+            {
+                "tag": "Evening",
+                "visible": false
+            },
+            {
+                "tag": "Late",
+                "visible": false
+            },
+            {
+                "tag": "Open",
+                "visible": true
+            },
+            {
+                "tag": "Speaker",
+                "visible": true
+            },
+            {
+                "tag": "Kentucky",
+                "visible": false
+            }
+        ]
+    },
+    {
+        "groupName": "Sunrisers",
+        "dayOfWeek": "Friday",
+        "time": 25200,
+        "location": "St. Matthews Episcopal Church",
+        "address": {
+            "street": "330 N Hubbards Lane",
+            "city": "Louisville",
+            "state": "KY",
+            "zip": "40207"
+        },
+        "tags": [
+            {
+                "tag": "Open",
+                "visible": true
+            },
+            {
+                "tag": "Discussion",
+                "visible": true
+            },
+            {
+                "tag": "Kentucky",
+                "visible": false
+            }
+        ]
+    },
+    {
+        "groupName": "Healthy Choice Group",
+        "dayOfWeek": "Friday",
+        "time": 36000,
+        "location": "New Covenant Baptist Church",
+        "address": {
+            "street": "1190 S 40th St",
+            "city": "Louisville",
+            "state": "KY",
+            "zip": "40211"
+        },
+        "tags": [
+            {
+                "tag": "Morning",
+                "visible": false
+            },
+            {
+                "tag": "Open",
+                "visible": true
+            },
+            {
+                "tag": "Discussion",
+                "visible": true
+            },
+            {
+                "tag": "Speaker",
+                "visible": true
+            },
+            {
+                "tag": "Kentucky",
+                "visible": false
+            }
+        ]
+    },
+    {
+        "groupName": "Caring Thru Sharing",
+        "dayOfWeek": "Friday",
+        "time": 43200,
+        "location": "Bardstown Road Presbyterian Church ",
+        "address": {
+            "street": "1722 Bardstown Road",
+            "city": "Louisville",
+            "state": "KY",
+            "zip": "40205"
+        },
+        "tags": [
+            {
+                "tag": "Morning",
+                "visible": false
+            },
+            {
+                "tag": "Afternoon",
+                "visible": false
+            },
+            {
+                "tag": "Open",
+                "visible": true
+            },
+            {
+                "tag": "Wheelchair Accessible",
+                "visible": true
+            },
+            {
+                "tag": "Kentucky",
+                "visible": false
+            }
+        ]
+    },
+    {
+        "groupName": "Just For Today",
+        "dayOfWeek": "Friday",
+        "time": 43200,
+        "location": "Recovery Resource Center",
+        "address": {
+            "street": "2501 W. Market Street",
+            "city": "Louisville",
+            "state": "KY",
+            "zip": "40212"
+        },
+        "tags": [
+            {
+                "tag": "Morning",
+                "visible": false
+            },
+            {
+                "tag": "Afternoon",
+                "visible": false
+            },
+            {
+                "tag": "Open",
+                "visible": true
+            },
+            {
+                "tag": "Discussion",
+                "visible": true
+            },
+            {
+                "tag": "Kentucky",
+                "visible": false
+            }
+        ]
+    },
+    {
+        "groupName": "The Stopping Point",
+        "dayOfWeek": "Friday",
+        "time": 64800,
+        "location": "The Stopping Point ***Meeting Upstairs in ROOM #2",
+        "address": {
+            "street": "3610 Bohne Ave",
+            "city": "Louisville",
+            "state": "KY",
+            "zip": "40211"
+        },
+        "tags": [
+            {
+                "tag": "Evening",
+                "visible": false
+            },
+            {
+                "tag": "Open",
+                "visible": true
+            },
+            {
+                "tag": "Discussion",
+                "visible": true
+            },
+            {
+                "tag": "Wheelchair Accessible",
+                "visible": true
+            },
+            {
+                "tag": "Kentucky",
+                "visible": false
+            }
+        ]
+    },
+    {
+        "groupName": "Recovery At Large",
+        "dayOfWeek": "Friday",
+        "time": 64800,
+        "location": "Safe Harbor Club",
+        "address": {
+            "street": "200 S Joe Prather Hwy",
+            "city": "Vine Grove",
+            "state": "KY",
+            "zip": "40175"
+        },
+        "tags": [
+            {
+                "tag": "Evening",
+                "visible": false
+            },
+            {
+                "tag": "Kentucky",
+                "visible": false
+            }
+        ]
+    },
+    {
+        "groupName": "The Serenity Group",
+        "dayOfWeek": "Friday",
+        "time": 68400,
+        "location": "Fairdale Christian Church",
+        "address": {
+            "street": "9000 Brown Austin Road",
+            "city": "Fairdale",
+            "state": "KY",
+            "zip": "40118"
+        },
+        "tags": [
+            {
+                "tag": "Evening",
+                "visible": false
+            },
+            {
+                "tag": "Open",
+                "visible": true
+            },
+            {
+                "tag": "Discussion",
+                "visible": true
+            },
+            {
+                "tag": "Kentucky",
+                "visible": false
+            }
+        ]
+    },
+    {
+        "groupName": "Shepherdsville Shot Of Hope",
+        "dayOfWeek": "Friday",
+        "time": 68400,
+        "location": "Shepherdsville Christian Church Fellowship Hall",
+        "address": {
+            "street": "337 Lees Valley Dr",
+            "city": "Shepherdsville",
+            "state": "KY",
+            "zip": "40165"
+        },
+        "tags": [
+            {
+                "tag": "Evening",
+                "visible": false
+            },
+            {
+                "tag": "Open",
+                "visible": true
+            },
+            {
+                "tag": "Discussion",
+                "visible": true
+            },
+            {
+                "tag": "Kentucky",
+                "visible": false
+            }
+        ]
+    },
+    {
+        "groupName": "Another Chance",
+        "dayOfWeek": "Friday",
+        "time": 70200,
+        "address": {
+            "street": "536 Frankfort Rd",
+            "city": "Shelbyville",
+            "state": "KY",
+            "zip": "40065"
+        },
+        "tags": [
+            {
+                "tag": "Evening",
+                "visible": false
+            },
+            {
+                "tag": "Open",
+                "visible": true
+            },
+            {
+                "tag": "Literature Study",
+                "visible": true
+            },
+            {
+                "tag": "Wheelchair Accessible",
+                "visible": true
+            },
+            {
+                "tag": "Kentucky",
+                "visible": false
+            }
+        ]
+    },
+    {
+        "groupName": "Old School Recovery",
+        "dayOfWeek": "Friday",
+        "time": 72000,
+        "location": "Fern Creek Baptist Church",
+        "address": {
+            "street": "5920 Bardstown Road",
+            "city": "Louisville",
+            "state": "KY",
+            "zip": "40291"
+        },
+        "tags": [
+            {
+                "tag": "Evening",
+                "visible": false
+            },
+            {
+                "tag": "Late",
+                "visible": false
+            },
+            {
+                "tag": "Open",
+                "visible": true
+            },
+            {
+                "tag": "Discussion",
+                "visible": true
+            },
+            {
+                "tag": "Literature Study",
+                "visible": true
+            },
+            {
+                "tag": "Chairperson's Choice",
+                "visible": true
+            },
+            {
+                "tag": "Kentucky",
+                "visible": false
+            }
+        ]
+    },
+    {
+        "groupName": "Highland Peace",
+        "dayOfWeek": "Friday",
+        "time": 72000,
+        "location": "Highland Baptist Church",
+        "address": {
+            "street": "1101 Cherokee Rd",
+            "city": "Louisville",
+            "state": "KY",
+            "zip": "40204"
+        },
+        "tags": [
+            {
+                "tag": "Evening",
+                "visible": false
+            },
+            {
+                "tag": "Late",
+                "visible": false
+            },
+            {
+                "tag": "Open",
+                "visible": true
+            },
+            {
+                "tag": "Speaker",
+                "visible": true
+            },
+            {
+                "tag": "Wheelchair Accessible",
+                "visible": true
+            },
+            {
+                "tag": "Kentucky",
+                "visible": false
+            }
+        ]
+    },
+    {
+        "groupName": "Out Of Control",
+        "dayOfWeek": "Friday",
+        "time": 72000,
+        "location": "Salvation Army",
+        "address": {
+            "street": "911 S. Brook St",
+            "city": "Louisville",
+            "state": "KY",
+            "zip": "40203"
+        },
+        "tags": [
+            {
+                "tag": "Evening",
+                "visible": false
+            },
+            {
+                "tag": "Late",
+                "visible": false
+            },
+            {
+                "tag": "Open",
+                "visible": true
+            },
+            {
+                "tag": "Discussion",
+                "visible": true
+            },
+            {
+                "tag": "Wheelchair Accessible",
+                "visible": true
+            },
+            {
+                "tag": "Kentucky",
+                "visible": false
+            }
+        ]
+    },
+    {
+        "groupName": "The Solution Group",
+        "dayOfWeek": "Friday",
+        "time": 72000,
+        "location": "Serenity Club",
+        "address": {
+            "street": "206 S Main St",
+            "city": "Elizabethtown",
+            "state": "KY",
+            "zip": "42701"
+        },
+        "tags": [
+            {
+                "tag": "Evening",
+                "visible": false
+            },
+            {
+                "tag": "Late",
+                "visible": false
+            },
+            {
+                "tag": "Kentucky",
+                "visible": false
+            }
+        ]
+    },
+    {
+        "groupName": "NA Meeting",
+        "dayOfWeek": "Friday",
+        "time": 72000,
+        "location": "Passages WOMEN ONLY",
+        "address": {
+            "street": "615 Westport Rd.",
+            "city": "Elizabethtown",
+            "state": "KY",
+            "zip": "42701"
+        },
+        "tags": [
+            {
+                "tag": "Evening",
+                "visible": false
+            },
+            {
+                "tag": "Late",
+                "visible": false
+            },
+            {
+                "tag": "Kentucky",
+                "visible": false
+            }
+        ]
+    },
+    {
+        "groupName": "The Midnight Meeting",
+        "dayOfWeek": "Friday",
+        "time": 86340,
+        "location": "Recovery Resource Center",
+        "address": {
+            "street": "2501 W Market St",
+            "city": "Louisville",
+            "state": "KY",
+            "zip": "40212"
+        },
+        "tags": [
+            {
+                "tag": "Late",
+                "visible": false
+            },
+            {
+                "tag": "Open",
+                "visible": true
+            },
+            {
+                "tag": "Discussion",
+                "visible": true
+            },
+            {
+                "tag": "Wheelchair Accessible",
+                "visible": true
+            },
+            {
+                "tag": "Kentucky",
+                "visible": false
+            }
+        ]
+    },
+    {
+        "groupName": "Reach For Recovery",
+        "dayOfWeek": "Saturday",
+        "time": 36000,
+        "location": "Jefferson St Community Center",
+        "address": {
+            "street": "800 E Liberty St",
+            "city": "Louisville",
+            "state": "KY",
+            "zip": "40204"
+        },
+        "tags": [
+            {
+                "tag": "Morning",
+                "visible": false
+            },
+            {
+                "tag": "Open",
+                "visible": true
+            },
+            {
+                "tag": "Literature Study",
+                "visible": true
+            },
+            {
+                "tag": "Wheelchair Accessible",
+                "visible": true
+            },
+            {
+                "tag": "Kentucky",
+                "visible": false
+            }
+        ]
+    },
+    {
+        "groupName": "Starting Over",
+        "dayOfWeek": "Saturday",
+        "time": 36000,
+        "location": "VA Hospital West Entrance Room D010",
+        "address": {
+            "street": "800 Zorn Ave",
+            "city": "Louisville",
+            "state": "KY",
+            "zip": "40206"
+        },
+        "tags": [
+            {
+                "tag": "Morning",
+                "visible": false
+            },
+            {
+                "tag": "Open",
+                "visible": true
+            },
+            {
+                "tag": "Discussion",
+                "visible": true
+            },
+            {
+                "tag": "Wheelchair Accessible",
+                "visible": true
+            },
+            {
+                "tag": "Kentucky",
+                "visible": false
+            }
+        ]
+    },
+    {
+        "groupName": "Come As You Are",
+        "dayOfWeek": "Saturday",
+        "time": 36000,
+        "location": "First Presbyterian Church",
+        "address": {
+            "street": "209 N 2nd St",
+            "city": "Bardstown",
+            "state": "KY",
+            "zip": "40004"
+        },
+        "tags": [
+            {
+                "tag": "Morning",
+                "visible": false
+            },
+            {
+                "tag": "Open",
+                "visible": true
+            },
+            {
+                "tag": "Kentucky",
+                "visible": false
+            }
+        ]
+    },
+    {
+        "groupName": "Group 53",
+        "dayOfWeek": "Saturday",
+        "time": 36000,
+        "location": "St Paul Evangal Lutheran",
+        "address": {
+            "street": "2304 Crums Lane",
+            "city": "Louisville",
+            "state": "KY",
+            "zip": "40216"
+        },
+        "tags": [
+            {
+                "tag": "Morning",
+                "visible": false
+            },
+            {
+                "tag": "Open",
+                "visible": true
+            },
+            {
+                "tag": "Wheelchair Accessible",
+                "visible": true
+            },
+            {
+                "tag": "Kentucky",
+                "visible": false
+            }
+        ]
+    },
+    {
+        "groupName": "Group 53",
+        "dayOfWeek": "Saturday",
+        "time": 41400,
+        "location": "St Paul Evangal Lutheran",
+        "address": {
+            "street": "2304 Crums Lane",
+            "city": "Louisville",
+            "state": "KY",
+            "zip": "40216"
+        },
+        "tags": [
+            {
+                "tag": "Morning",
+                "visible": false
+            },
+            {
+                "tag": "Open",
+                "visible": true
+            },
+            {
+                "tag": "Discussion",
+                "visible": true
+            },
+            {
+                "tag": "Wheelchair Accessible",
+                "visible": true
+            },
+            {
+                "tag": "Kentucky",
+                "visible": false
+            }
+        ]
+    },
+    {
+        "groupName": "Another Chance",
+        "dayOfWeek": "Saturday",
+        "time": 43200,
+        "address": {
+            "street": "536 Frankfort Rd",
+            "city": "Shelbyville",
+            "state": "KY",
+            "zip": "40065"
+        },
+        "tags": [
+            {
+                "tag": "Morning",
+                "visible": false
+            },
+            {
+                "tag": "Afternoon",
+                "visible": false
+            },
+            {
+                "tag": "Open",
+                "visible": true
+            },
+            {
+                "tag": "Literature Study",
+                "visible": true
+            },
+            {
+                "tag": "Wheelchair Accessible",
+                "visible": true
+            },
+            {
+                "tag": "Kentucky",
+                "visible": false
+            }
+        ]
+    },
+    {
+        "groupName": "Agape Group",
+        "dayOfWeek": "Saturday",
+        "time": 45000,
+        "location": "Northeast Clifton Campus",
+        "address": {
+            "street": "131 Vernon Ave.",
+            "city": "Louisville",
+            "state": "KY",
+            "zip": "40206"
+        },
+        "tags": [
+            {
+                "tag": "Afternoon",
+                "visible": false
+            },
+            {
+                "tag": "Open",
+                "visible": true
+            },
+            {
+                "tag": "Discussion",
+                "visible": true
+            },
+            {
+                "tag": "Wheelchair Accessible",
+                "visible": true
+            },
+            {
+                "tag": "Kentucky",
+                "visible": false
+            }
+        ]
+    },
+    {
+        "groupName": "Lose The Desire",
+        "dayOfWeek": "Saturday",
+        "time": 48600,
+        "location": "Lutheran Church",
+        "address": {
+            "street": "417 E Broadway",
+            "city": "Louisville",
+            "state": "KY",
+            "zip": "40202"
+        },
+        "tags": [
+            {
+                "tag": "Afternoon",
+                "visible": false
+            },
+            {
+                "tag": "Open",
+                "visible": true
+            },
+            {
+                "tag": "Discussion",
+                "visible": true
+            },
+            {
+                "tag": "Kentucky",
+                "visible": false
+            }
+        ]
+    },
+    {
+        "groupName": "Hope 4 Us 2",
+        "dayOfWeek": "Saturday",
+        "time": 50400,
+        "address": {
+            "street": "1092 Community Way",
+            "city": "Scottsburg",
+            "state": "IN",
+            "zip": "47170"
+        },
+        "tags": [
+            {
+                "tag": "Afternoon",
+                "visible": false
+            },
+            {
+                "tag": "Open",
+                "visible": true
+            },
+            {
+                "tag": "Discussion",
+                "visible": true
+            },
+            {
+                "tag": "Speaker",
+                "visible": true
+            },
+            {
+                "tag": "Indiana",
+                "visible": false
+            }
+        ]
+    },
+    {
+        "groupName": "Just Us",
+        "dayOfWeek": "Saturday",
+        "time": 61200,
+        "location": "TARC Union Hall",
+        "address": {
+            "street": "2222 S 9th St.",
+            "city": "Louisville",
+            "state": "KY",
+            "zip": "40208"
+        },
+        "tags": [
+            {
+                "tag": "Afternoon",
+                "visible": false
+            },
+            {
+                "tag": "Evening",
+                "visible": false
+            },
+            {
+                "tag": "Discussion",
+                "visible": true
+            },
+            {
+                "tag": "Literature Study",
+                "visible": true
+            },
+            {
+                "tag": "Kentucky",
+                "visible": false
+            }
+        ]
+    },
+    {
+        "groupName": "The Key Tag Group",
+        "dayOfWeek": "Saturday",
+        "time": 63000,
+        "location": "West End Token Club",
+        "address": {
+            "street": "708 S 16th Street",
+            "city": "Louisville",
+            "state": "KY",
+            "zip": "40212"
+        },
+        "tags": [
+            {
+                "tag": "Evening",
+                "visible": false
+            },
+            {
+                "tag": "Literature Study",
+                "visible": true
+            },
+            {
+                "tag": "Wheelchair Accessible",
+                "visible": true
+            },
+            {
+                "tag": "Kentucky",
+                "visible": false
+            }
+        ]
+    },
+    {
+        "groupName": "Searching For Serenity",
+        "dayOfWeek": "Saturday",
+        "time": 64800,
+        "location": "Safe Harbor Club",
+        "address": {
+            "street": "200 S Joe Prather Hwy",
+            "city": "Vine Grove",
+            "state": "KY",
+            "zip": "40175"
+        },
+        "tags": [
+            {
+                "tag": "Evening",
+                "visible": false
+            },
+            {
+                "tag": "Kentucky",
+                "visible": false
+            }
+        ]
+    },
+    {
+        "groupName": "Just For Today",
+        "dayOfWeek": "Saturday",
+        "time": 70200,
+        "location": "Nelson Co Library",
+        "address": {
+            "street": "201 Cathedral Manner",
+            "city": "Bardstown",
+            "state": "KY",
+            "zip": "40004"
+        },
+        "tags": [
+            {
+                "tag": "Evening",
+                "visible": false
+            },
+            {
+                "tag": "Open",
+                "visible": true
+            },
+            {
+                "tag": "Discussion",
+                "visible": true
+            },
+            {
+                "tag": "Kentucky",
+                "visible": false
+            }
+        ]
+    },
+    {
+        "groupName": "Saturday Night Live",
+        "dayOfWeek": "Saturday",
+        "time": 70200,
+        "location": "Brown Memorial Church",
+        "address": {
+            "street": "809 W Chestnut",
+            "city": "Louisville",
+            "state": "KY",
+            "zip": "40203"
+        },
+        "tags": [
+            {
+                "tag": "Evening",
+                "visible": false
+            },
+            {
+                "tag": "Open",
+                "visible": true
+            },
+            {
+                "tag": "Discussion",
+                "visible": true
+            },
+            {
+                "tag": "Kentucky",
+                "visible": false
+            }
+        ]
+    },
+    {
+        "groupName": "Standing For Something",
+        "dayOfWeek": "Saturday",
+        "time": 70200,
+        "location": "St Phillip Neri Speaker 1st Sat Of Each Month",
+        "address": {
+            "street": "236 Woodbine St",
+            "city": "Louisville",
+            "state": "KY",
+            "zip": "40208"
+        },
+        "tags": [
+            {
+                "tag": "Evening",
+                "visible": false
+            },
+            {
+                "tag": "Open",
+                "visible": true
+            },
+            {
+                "tag": "Discussion",
+                "visible": true
+            },
+            {
+                "tag": "Wheelchair Accessible",
+                "visible": true
+            },
+            {
+                "tag": "Kentucky",
+                "visible": false
+            }
+        ]
+    },
+    {
+        "groupName": "Home Sweet Home",
+        "dayOfWeek": "Saturday",
+        "time": 70200,
+        "location": "Next Step",
+        "address": {
+            "street": "103 Big Indian Road",
+            "city": "Corydon",
+            "state": "IN",
+            "zip": "47112"
+        },
+        "tags": [
+            {
+                "tag": "Evening",
+                "visible": false
+            },
+            {
+                "tag": "Open",
+                "visible": true
+            },
+            {
+                "tag": "Discussion",
+                "visible": true
+            },
+            {
+                "tag": "Indiana",
+                "visible": false
+            }
+        ]
+    },
+    {
+        "groupName": "Step Up Group",
+        "dayOfWeek": "Saturday",
+        "time": 72000,
+        "location": "The Healing Place",
+        "address": {
+            "street": "1020 W Market St",
+            "city": "Louisville",
+            "state": "KY",
+            "zip": "40202"
+        },
+        "tags": [
+            {
+                "tag": "Evening",
+                "visible": false
+            },
+            {
+                "tag": "Late",
+                "visible": false
+            },
+            {
+                "tag": "Open",
+                "visible": true
+            },
+            {
+                "tag": "Speaker",
+                "visible": true
+            },
+            {
+                "tag": "Wheelchair Accessible",
+                "visible": true
+            },
+            {
+                "tag": "Kentucky",
+                "visible": false
+            }
+        ]
+    },
+    {
+        "groupName": "Take It E-Z",
+        "dayOfWeek": "Saturday",
+        "time": 72000,
+        "location": "Hillsdale Baptist Church",
+        "address": {
+            "street": "4714 E Pages Ln",
+            "city": "Louisville",
+            "state": "KY",
+            "zip": "40272"
+        },
+        "tags": [
+            {
+                "tag": "Evening",
+                "visible": false
+            },
+            {
+                "tag": "Late",
+                "visible": false
+            },
+            {
+                "tag": "Open",
+                "visible": true
+            },
+            {
+                "tag": "Chairperson's Choice",
+                "visible": true
+            },
+            {
+                "tag": "Wheelchair Accessible",
+                "visible": true
+            },
+            {
+                "tag": "Kentucky",
+                "visible": false
+            }
+        ]
+    },
+    {
+        "groupName": "Welcome Home",
+        "dayOfWeek": "Saturday",
+        "time": 72000,
+        "location": "EZ Duz It Club",
+        "address": {
+            "street": "6605 Lower Hunters Trace",
+            "city": "Louisville",
+            "state": "KY",
+            "zip": "40258"
+        },
+        "tags": [
+            {
+                "tag": "Evening",
+                "visible": false
+            },
+            {
+                "tag": "Late",
+                "visible": false
+            },
+            {
+                "tag": "Open",
+                "visible": true
+            },
+            {
+                "tag": "Discussion",
+                "visible": true
+            },
+            {
+                "tag": "Kentucky",
+                "visible": false
+            }
+        ]
+    },
+    {
+        "groupName": "Dope Sux",
+        "dayOfWeek": "Saturday",
+        "time": 81000,
+        "location": "Chapel Of St Philip Neri",
+        "address": {
+            "street": "236 Woodbine St",
+            "city": "Louisville",
+            "state": "KY",
+            "zip": "40208"
+        },
+        "tags": [
+            {
+                "tag": "Late",
+                "visible": false
+            },
+            {
+                "tag": "Open",
+                "visible": true
+            },
+            {
+                "tag": "Closed",
+                "visible": true
+            },
+            {
+                "tag": "Discussion",
+                "visible": true
+            },
+            {
+                "tag": "Kentucky",
+                "visible": false
+            }
+        ]
+    },
+    {
+        "groupName": "The Midnight Meeting",
+        "dayOfWeek": "Saturday",
+        "time": 86340,
+        "address": {
+            "street": "2501 W Market St",
+            "city": "Louisville",
+            "state": "KY",
+            "zip": "40212"
+        },
+        "tags": [
+            {
+                "tag": "Late",
+                "visible": false
+            },
+            {
+                "tag": "Open",
+                "visible": true
+            },
+            {
+                "tag": "Discussion",
+                "visible": true
+            },
+            {
+                "tag": "Wheelchair Accessible",
+                "visible": true
+            },
+            {
+                "tag": "Kentucky",
+                "visible": false
+            }
+        ]
+    }
+]
