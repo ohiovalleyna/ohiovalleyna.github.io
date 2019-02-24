@@ -1,10 +1,30 @@
 [
     {
-        "linkText": "January 2019 Area Minutes",
-        "fileName" : "OVANA ASC Minutes 27Jan2019.pdf"
+        "type": "AreaMinutes",
+        "display": "Area Minutes",
+        "files": [
+            {
+                "linkText": "January 2019 Area Minutes",
+                "fileName": "assets/documents/OVANA ASC Minutes 27Jan2019.pdf"
+            },
+            {
+                "linkText": "December 2018 Area Minutes",
+                "fileName": "assets/documents/OVANA December 2018 Area Minutes.pdf"
+            }
+        ]
     },
     {
-        "linkText": "December 2018 Area Minutes",
-        "fileName" : "OVANA December 2018 Area Minutes.pdf"
+        "type": "RegionMinutes",
+        "display": "Region Minutes"
+    },
+    { 
+        "type": "AreaServiceDocuments",
+        "display": "Area Service Documents",
+        "files": [
+            {
+                "linkText": "Literature Order Form",
+                "fileName": "assets/documents/NAWS OrderForm_final_Dec2018.pdf"
+            }
+        ]
     }
 ]
