@@ -1,0 +1,9 @@
+.firstLetterBigRed::first-letter {
+    font-size: 140%;
+    color: red;
+}
+
+.firstLetterBigRed {
+    display: inline-block;
+    font-size: 9pt;
+}

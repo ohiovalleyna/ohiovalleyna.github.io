@@ -13,6 +13,7 @@ import { CalendarComponent } from './components/calendar/calendar.component';
 import { VisibleTagPipe, InvisibleTagPipe } from './pipes/tag/tag.pipe';
 import { DayOfWeekPipe } from './pipes/dayofweek/dayofweek.pipe';
 import { AreaDocumentsComponent } from './components/area-documents/area-documents.component';
+import { NavbarComponent } from './components/navbar/navbar/navbar.component';
 
 @NgModule({
   declarations: [
@@ -26,7 +27,8 @@ import { AreaDocumentsComponent } from './components/area-documents/area-documen
     VisibleTagPipe,
     InvisibleTagPipe,
     DayOfWeekPipe,
-    AreaDocumentsComponent
+    AreaDocumentsComponent,
+    NavbarComponent
   ],
   imports: [
     BrowserModule,
