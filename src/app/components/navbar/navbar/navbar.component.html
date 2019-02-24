@@ -19,14 +19,29 @@
               <li class="nav-item" data-toggle="collapse" data-target=".navbar-collapse.show">
                   <a class="nav-link" routerLink="/calendar">Calendar</a>
               </li>
-              <li class="nav-item" data-toggle="collapse" data-target=".navbar-collapse.show" >
-                  <a class="nav-link" routerLink="/area-documents">Area Documents</a>
-              </li>
+              <ng-container *ngIf="documents">
+                <!-- If there's just one, a dropdown is useless. -->
+                <ng-container *ngIf="documents.length == 1 else documentsDropdown">
+                  <li class="nav-item" data-toggle="collapse" data-target=".navbar-collapse.show" >
+                      <a class="nav-link" routerLink="/documents/{{ documents[0].type }}">{{ documents[0].display }}</a>
+                  </li>
+                </ng-container>
+                <ng-template #documentsDropdown>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" style="left: auto; right:0" href="#" id="documentsDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Documents
+                        </a>
+                        <div class="dropdown-menu dropdown-menu-right" data-toggle="collapse" data-target=".navbar-collapse.show"  aria-labelledby="documentsDropdown">
+                        <a *ngFor="let document of documents" class="dropdown-item" routerLink="/documents/{{ document.type }}">{{ document.display }}</a>
+                        </div>
+                    </li>
+                </ng-template>
+              </ng-container>
               <li class="nav-item dropdown">
-                  <a class="nav-link dropdown-toggle" style="left: auto; right:0" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  <a class="nav-link dropdown-toggle" style="left: auto; right:0" href="#" id="meetingsDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                   Meetings
                   </a>
-                  <div class="dropdown-menu dropdown-menu-right" data-toggle="collapse" data-target=".navbar-collapse.show"  aria-labelledby="navbarDropdown">
+                  <div class="dropdown-menu dropdown-menu-right" data-toggle="collapse" data-target=".navbar-collapse.show"  aria-labelledby="meetingsDropdown">
                   <a class="dropdown-item" routerLink="/meeting-list">Meetings</a>
                   <a class="dropdown-item" href="http://www.nalouisville.net/printable-meeting-schedule.html">LASCNA Printable Meeting Schedule</a>
                   </div>

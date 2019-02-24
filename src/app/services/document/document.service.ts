@@ -10,7 +10,7 @@ import { Document } from '../../models/document';
   providedIn: 'root'
 })
 export class DocumentService {
-  getAreaDocuments(): Observable<Document[]> {
+  getDocuments(): Observable<Document[]> {
     return this.http.get('assets/data/documents.json')
       .pipe(map(response => response as Document[]));
   }

@@ -1,0 +1,12 @@
+<div *ngFor="let document of documents">
+  <h2>{{ document.display }}</h2>
+  <ng-container *ngIf="document.files else empty">
+    <ul>
+      <li *ngFor="let file of document.files"><a href="{{ file.fileName }}">{{ file.linkText }}</a>
+      </li>
+    </ul>
+  </ng-container>
+  <ng-template #empty>
+    <div>There are no documents uploaded for this section yet</div>
+  </ng-template>
+</div>

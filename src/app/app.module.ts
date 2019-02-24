@@ -12,7 +12,7 @@ import { HomeComponent } from './components/home/home.component';
 import { CalendarComponent } from './components/calendar/calendar.component';
 import { VisibleTagPipe, InvisibleTagPipe } from './pipes/tag/tag.pipe';
 import { DayOfWeekPipe } from './pipes/dayofweek/dayofweek.pipe';
-import { AreaDocumentsComponent } from './components/area-documents/area-documents.component';
+import { DocumentsComponent } from './components/documents/documents.component';
 import { NavbarComponent } from './components/navbar/navbar/navbar.component';
 
 @NgModule({
@@ -27,7 +27,7 @@ import { NavbarComponent } from './components/navbar/navbar/navbar.component';
     VisibleTagPipe,
     InvisibleTagPipe,
     DayOfWeekPipe,
-    AreaDocumentsComponent,
+    DocumentsComponent,
     NavbarComponent
   ],
   imports: [
