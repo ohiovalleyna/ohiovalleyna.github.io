@@ -1,35 +1,5 @@
 [
     {
-        "groupName": "Spiritual Not Religious ",
-        "dayOfWeek": "Sunday",
-        "time": 46800,
-        "location": "Hogans Fountain Cherokee Park",
-        "address": {
-            "street": "across the street from the teepee pavilion April 17th-Oct 30th",
-            "city": "Louisville",
-            "state": "KY",
-            "zip": "40204"
-        },
-        "tags": [
-            {
-                "tag": "Afternoon",
-                "visible": false
-            },
-            {
-                "tag": "Open",
-                "visible": true
-            },
-            {
-                "tag": "Discussion",
-                "visible": true
-            },
-            {
-                "tag": "Kentucky",
-                "visible": false
-            }
-        ]
-    },
-    {
         "groupName": "Recovery At Large",
         "dayOfWeek": "Sunday",
         "time": 46800,
