@@ -14,6 +14,7 @@ import { VisibleTagPipe, InvisibleTagPipe } from './pipes/tag/tag.pipe';
 import { DayOfWeekPipe } from './pipes/dayofweek/dayofweek.pipe';
 import { DocumentsComponent } from './components/documents/documents.component';
 import { NavbarComponent } from './components/navbar/navbar/navbar.component';
+import { AddresslinkPipe } from './pipes/addresslink/addresslink.pipe';
 
 @NgModule({
   declarations: [
@@ -28,7 +29,8 @@ import { NavbarComponent } from './components/navbar/navbar/navbar.component';
     InvisibleTagPipe,
     DayOfWeekPipe,
     DocumentsComponent,
-    NavbarComponent
+    NavbarComponent,
+    AddresslinkPipe
   ],
   imports: [
     BrowserModule,

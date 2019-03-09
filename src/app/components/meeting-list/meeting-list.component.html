@@ -21,10 +21,18 @@
     <div class="card-body">
       <h5 class="card-title">{{ meeting.dayOfWeek }}s at {{ meeting.time | time }}</h5>
       <p class="card-text">
-        <ng-container *ngIf="meeting.location">{{ meeting.location }}<br /></ng-container>
-        {{ meeting.address.street }}
-        <br />
-        {{ meeting.address | address }}
+        <ng-template #meetingAddress>
+          <ng-container *ngIf="meeting.location">{{ meeting.location }}<br /></ng-container>
+          {{ meeting.address.street }}
+          <br />
+          {{ meeting.address | address }}
+        </ng-template>
+        <a *ngIf="meeting.address.street && meeting.address.city && meeting.address.state else noLink" href="https://www.google.com/maps/place/{{ meeting.address | addresslink }}" target="_blank">
+          <ng-container *ngTemplateOutlet="meetingAddress"></ng-container>
+        </a>
+        <ng-template #noLink>
+          <ng-container *ngTemplateOutlet="meetingAddress"></ng-container>
+        </ng-template>
       </p>
     </div>
     <ng-container *ngIf="meeting.tags">
