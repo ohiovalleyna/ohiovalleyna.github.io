@@ -532,6 +532,44 @@
         "id": "2477fd6f-a863-4096-be28-850530e28a1a"
     },
     {
+        "groupName": "Women's Power Within",
+        "dayOfWeek": "Monday",
+        "time": 68400,
+        "address": {
+            "street": "757 S. Brook St.",
+            "city": "Louisville",
+            "state": "KY",
+            "zip": "40203"
+        },
+        "tags": [
+            {
+                "tag": "Evening",
+                "visible": false
+            },
+            {
+                "tag": "Open",
+                "visible": true
+            },
+            {
+                "tag": "Discussion",
+                "visible": true
+            },
+            {
+                "tag": "Wheelchair Accessible",
+                "visible": true
+            },
+            {
+                "tag": "Women's Only",
+                "visible": true
+            },
+            {
+                "tag": "Kentucky",
+                "visible": false
+            }
+        ],
+        "id": "c40c7057-b57e-4350-a8dd-672bd65e0cee"
+    },
+    {
         "groupName": "Why Are We Here",
         "dayOfWeek": "Monday",
         "time": 68400,
