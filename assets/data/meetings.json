@@ -497,41 +497,6 @@
         "id": "dd8184f0-c652-4be8-b0e5-9264b705aeb8"
     },
     {
-        "groupName": "Never Alone",
-        "dayOfWeek": "Monday",
-        "time": 66600,
-        "location": "H20 Church",
-        "address": {
-            "street": "485 Mann Ave.",
-            "city": "Austin",
-            "state": "IN",
-            "zip": "47102"
-        },
-        "tags": [
-            {
-                "tag": "Evening",
-                "visible": false
-            },
-            {
-                "tag": "Open",
-                "visible": true
-            },
-            {
-                "tag": "Discussion",
-                "visible": true
-            },
-            {
-                "tag": "Speaker",
-                "visible": true
-            },
-            {
-                "tag": "Indiana",
-                "visible": false
-            }
-        ],
-        "id": "2477fd6f-a863-4096-be28-850530e28a1a"
-    },
-    {
         "groupName": "Women's Power Within",
         "dayOfWeek": "Monday",
         "time": 68400,
