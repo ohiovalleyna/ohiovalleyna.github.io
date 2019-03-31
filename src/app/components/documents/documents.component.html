@@ -2,7 +2,7 @@
   <h2>{{ document.display }}</h2>
   <ng-container *ngIf="document.files else empty">
     <ul>
-      <li *ngFor="let file of document.files"><a href="{{ file.fileName }}">{{ file.linkText }}</a>
+      <li *ngFor="let file of document.files"><a href="{{ file.fileName }}" target="_blank">{{ file.linkText }}</a>
       </li>
     </ul>
   </ng-container>
