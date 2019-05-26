@@ -2248,6 +2248,10 @@
             {
                 "tag": "Indiana",
                 "visible": false
+            },
+            {
+                "tag": "Juice",
+                "visible": true
             }
         ],
         "id": "1b76d700-8eb2-4e8f-9d13-e75c87166267"
