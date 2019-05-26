@@ -2246,6 +2246,10 @@
                 "visible": true
             },
             {
+                "tag":"Literature Study",
+                "visible": true
+            },
+            {
                 "tag": "Indiana",
                 "visible": false
             },
