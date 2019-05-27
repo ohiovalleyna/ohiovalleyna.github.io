@@ -1,8 +1,11 @@
 .responsiveCal {
     position: relative;
     padding-bottom: 75%;
-    height: 0;
+    height: 100%;
+    width: 95vw;
+    text-align:center;
     overflow: hidden;
+    margin: auto;
 }
 
 .responsiveCal iframe {
@@ -10,5 +13,7 @@
     top: 0;
     left: 0;
     width: 100%;
+    margin: auto;
     height: 100%;
+    display: block;
 }
