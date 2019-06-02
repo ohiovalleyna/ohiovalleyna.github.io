@@ -1,9 +1,7 @@
-[
-    {
+[{
         "type": "AreaMinutes",
         "display": "Area Minutes",
-        "files": [
-            {
+        "files": [{
                 "linkText": "April 2019 Area Minutes",
                 "fileName": "assets/documents/OVANA ASC 28APR2019.pdf"
             },
@@ -11,10 +9,10 @@
                 "linkText": "March 2019 Area Minutes",
                 "fileName": "assets/documents/OVANA ASC 31Mar2019 .pdf"
             },
-			{ 
-				"linkText": "February 2019 Area Minutes",
+            {
+                "linkText": "February 2019 Area Minutes",
                 "fileName": "assets/documents/OVANA ASC 24FEB19 Minutes.pdf"
-			},
+            },
             {
                 "linkText": "January 2019 Area Minutes",
                 "fileName": "assets/documents/OVANA ASC Minutes 27Jan2019.pdf"
@@ -29,11 +27,24 @@
         "type": "RegionMinutes",
         "display": "Region Minutes"
     },
-    { 
-        "type": "AreaServiceDocuments",
-        "display": "Area Service Documents",
+    {
+        "type": "flyers",
+        "display": "Flyers",
         "files": [
             {
+                "linkText": "Canoe the Blue",
+                "fileName": "assets/documents/Canoe.pdf"
+            },
+            {
+                "linkText": "Miracle in the Hills Campout",
+                "fileName": "assets/documents/miracle in the hills 2019.pdf"
+            }
+        ]
+    },
+    {
+        "type": "AreaServiceDocuments",
+        "display": "Area Service Documents",
+        "files": [{
                 "linkText": "Literature Order Form",
                 "fileName": "assets/documents/NAWS OrderForm_final_Dec2018.pdf"
             },
