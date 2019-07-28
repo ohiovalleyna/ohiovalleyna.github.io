@@ -3,6 +3,10 @@
         "display": "Area Minutes",
         "files": [
             {
+                "linkText": "June 2019 Area Minutes",
+                "fileName": "assets/documents/OVANA ASC 30Jun2019.pdf"
+            },
+            {
                 "linkText": "May 2019 Area Minutes",
                 "fileName": "assets/documents/OvanaAreaMay2019.pdf"
             },
