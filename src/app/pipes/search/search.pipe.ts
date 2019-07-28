@@ -10,21 +10,20 @@ export class SearchPipe implements PipeTransform {
     if (!filterText) return meetings;
 
     this.filters = filterText.split(' ');
-    if (!meetings || !filterText) {
-      return meetings;
-    }
-    return meetings.filter(meeting => 
+    if (!meetings || !filterText) return meetings;
+
+    return meetings.filter(meeting =>
       this.filters.some(filter => {
-        if (filter == '') return false;
+        if (filter === '') return false;
         filter = filter.toUpperCase();
         return this.verifyFilters(meeting, filter);
       })
-    )
+    );
   }
 
-  verifyFilters(meeting: Meeting, filter: string) : boolean {
+  verifyFilters(meeting: Meeting, filter: string): boolean {
     return this.filterCheck(meeting.groupName, filter) ||
-    this.filterCheck("" + meeting.dayOfWeek, filter) ||
+    this.filterCheck('' + meeting.dayOfWeek, filter) ||
     this.filterCheck(new TimePipe().transform(meeting.time), filter) ||
     this.filterCheck(meeting.location, filter) ||
     this.filterCheck(meeting.address.street, filter) ||
@@ -35,16 +34,16 @@ export class SearchPipe implements PipeTransform {
   }
 
   filterCheck(value: string, filter: string): boolean {
-    value = value || "";
+    value = value || '';
     return value.toUpperCase().includes(filter);
   }
 
   checkTags(tags: Tag[], filter: string): boolean {
     if (!tags) return false;
 
-    var found = false;
+    let found = false;
     found = tags.some(tag => {
-      if (this.filterCheck(tag.tag,filter)) {
+      if (this.filterCheck(tag.tag, filter)) {
         return true;
       }
     });

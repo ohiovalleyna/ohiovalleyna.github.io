@@ -11,9 +11,9 @@ export class DocumentsComponent implements OnInit {
   documents: Document[];
   private documentType: string;
 
-  constructor(private documentService: DocumentService, 
+  constructor(private documentService: DocumentService,
     private route: ActivatedRoute,
-    private router: Router) { 
+    private router: Router) {
       this.router.routeReuseStrategy.shouldReuseRoute = () => false;
   }
 
@@ -22,6 +22,6 @@ export class DocumentsComponent implements OnInit {
       this.documentType = params['document-type'];
     });
     this.documentService.getDocuments().subscribe(
-      documents => this.documents = documents.filter(documentType => documentType.type == this.documentType));
+      documents => this.documents = documents.filter(documentType => documentType.type === this.documentType));
   }
 }

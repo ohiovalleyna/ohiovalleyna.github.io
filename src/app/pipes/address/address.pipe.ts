@@ -6,7 +6,7 @@ import { Address } from '../../models/meeting';
 export class AddressPipe implements PipeTransform {
 
   transform(address: Address): string {
-    return `${address.city}, ${address.state} ${address.zip}`; 
+    return `${address.city}, ${address.state} ${address.zip}`;
   }
 
 }

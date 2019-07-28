@@ -5,6 +5,6 @@ export class Document {
 }
 
 export class File {
-    documentLocation : string;
-    linkText : string;
+    documentLocation: string;
+    linkText: string;
 }

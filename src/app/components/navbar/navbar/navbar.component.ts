@@ -8,12 +8,11 @@ import { DocumentService } from 'src/app/services/document/document.service';
   styleUrls: ['./navbar.component.css']
 })
 export class NavbarComponent implements OnInit {
-  documents: Document[]
+  documents: Document[];
   constructor(private documentService: DocumentService) { }
 
   ngOnInit() {
     this.documentService.getDocuments().subscribe(
       documents => this.documents = documents);
   }
-
 }

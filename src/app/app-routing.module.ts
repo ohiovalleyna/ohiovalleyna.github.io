@@ -5,15 +5,15 @@ import { HomeComponent } from './components/home/home.component';
 import { CalendarComponent } from './components/calendar/calendar.component';
 import { DocumentsComponent } from './components/documents/documents.component';
 
-const routes : Routes = [
+const routes: Routes = [
   { path: 'meeting-list', component : MeetingListComponent },
   { path: 'home', component: HomeComponent },
   { path: 'calendar', component: CalendarComponent },
   { path: 'documents/:document-type', component: DocumentsComponent },
   { path: '', redirectTo: '/home', pathMatch: 'full' }
-]
+];
 @NgModule({
   imports: [RouterModule.forRoot(routes)],
-  exports: [ RouterModule ] 
+  exports: [ RouterModule ]
 })
 export class AppRoutingModule { }

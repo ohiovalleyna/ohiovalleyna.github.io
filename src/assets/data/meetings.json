@@ -54,32 +54,6 @@
         "id": "f90ff47c-266a-4977-aa27-cde8520a5f4c"
     },
     {
-        "groupName": "Serenity on Sunday",
-        "dayOfWeek": "Sunday",
-        "time": 48600,
-        "location": "Recovery Resource Center",
-        "address": {
-            "street": "2501 W Market",
-            "city": "Louisville",
-            "state": "KY",
-            "zip": "40212"
-        },
-        "tags": [{
-                "tag": "Afternoon",
-                "visible": false
-            },
-            {
-                "tag": "Open",
-                "visible": true
-            },
-            {
-                "tag": "Kentucky",
-                "visible": false
-            }
-        ],
-        "id": "4f8553b7-9609-4fac-b0c2-92f620a5effd"
-    },
-    {
         "groupName": "Recovering Minds",
         "dayOfWeek": "Sunday",
         "time": 64800,
@@ -2120,7 +2094,7 @@
         "dayOfWeek": "Thursday",
         "time": 68400,
         "address": {
-            "street": "1092 Community Way",
+            "street": "396 W McClain Ave",
             "city": "Scottsburg",
             "state": "IN",
             "zip": "47170"
@@ -2189,9 +2163,9 @@
         "groupName": "HOW",
         "dayOfWeek": "Thursday",
         "time": 70200,
-        "location": "Northside Christian Church",
+        "location": "First Church of God",
         "address": {
-            "street": "4407 Charlestown Road",
+            "street": "2248 Charlestown Rd",
             "city": "New Albany",
             "state": "IN",
             "zip": "47150"
@@ -3072,7 +3046,7 @@
         "dayOfWeek": "Saturday",
         "time": 50400,
         "address": {
-            "street": "1092 Community Way",
+            "street": "396 W McClain Ave",
             "city": "Scottsburg",
             "state": "IN",
             "zip": "47170"

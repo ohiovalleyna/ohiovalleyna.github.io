@@ -20,22 +20,20 @@ export class MeetingListComponent implements OnInit {
 
   onSelect(day: string): void {
     this.selectedDay = day;
-    //this.filterText = "";
-    //this.getMeetings();
   }
 
   constructor(private meetingService: MeetingService) { }
 
   ngOnInit() {
-    var d = new Date();
+    const d = new Date();
     this.weekdays = new Array(7);
-    this.weekdays[0] = "Sunday";
-    this.weekdays[1] = "Monday";
-    this.weekdays[2] = "Tuesday";
-    this.weekdays[3] = "Wednesday";
-    this.weekdays[4] = "Thursday";
-    this.weekdays[5] = "Friday";
-    this.weekdays[6] = "Saturday";
+    this.weekdays[0] = 'Sunday';
+    this.weekdays[1] = 'Monday';
+    this.weekdays[2] = 'Tuesday';
+    this.weekdays[3] = 'Wednesday';
+    this.weekdays[4] = 'Thursday';
+    this.weekdays[5] = 'Friday';
+    this.weekdays[6] = 'Saturday';
 
     this.selectedDay = this.weekdays[d.getDay()];
     this.getMeetings();
