@@ -3,6 +3,10 @@
         "display": "Area Minutes",
         "files": [
             {
+                "linkText": "July 2019 Area Minutes",
+                "fileName": "assets/documents/OVANA ASC 28Jul2019.pdf"
+            },
+            {
                 "linkText": "June 2019 Area Minutes",
                 "fileName": "assets/documents/OVANA ASC 30Jun2019.pdf"
             },
@@ -41,16 +45,8 @@
         "display": "Flyers",
         "files": [
             {
-                "linkText": "Canoe the Blue",
-                "fileName": "assets/documents/Canoe.pdf"
-            },
-            {
-                "linkText": "Miracle in the Hills Campout",
-                "fileName": "assets/documents/miracle in the hills 2019.pdf"
-            },
-            {
-                "linkText": "Poker Run",
-                "fileName": "assets/documents/poker run flyer.pdf"
+                "linkText": "KRCNA 34 Flyer",
+                "fileName": "assets/documents/KRCNA 34 Flyer.pdf"
             }
         ]
     },
