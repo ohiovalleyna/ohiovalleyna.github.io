@@ -8,6 +8,7 @@
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e",
+    "publish": "npm run deploy",
     "deploy": "ng build --prod --outputPath=dist --baseHref=\"https://ovana.org\" && echo Build Complete! && ngh && npm run clean",
     "clean": "rm -rf dist && echo Cleaned for git"
   },
