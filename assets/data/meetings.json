@@ -489,7 +489,7 @@
     {
         "groupName": "Women's Power Within",
         "dayOfWeek": "Monday",
-        "time": 68400,
+        "time": 23400 ,
         "address": {
             "street": "757 S. Brook St.",
             "city": "Louisville",
@@ -724,39 +724,6 @@
             }
         ],
         "id": "9488faf0-0779-4050-a39a-9d368bf925d8"
-    },
-    {
-        "groupName": "Acceptance Place",
-        "dayOfWeek": "Monday",
-        "time": 72000,
-        "address": {
-            "street": "1370 Hwy 79",
-            "city": "Irvington",
-            "state": "KY",
-            "zip": "40146"
-        },
-        "tags": [{
-                "tag": "Evening",
-                "visible": false
-            },
-            {
-                "tag": "Late",
-                "visible": false
-            },
-            {
-                "tag": "Open",
-                "visible": true
-            },
-            {
-                "tag": "Discussion",
-                "visible": true
-            },
-            {
-                "tag": "Kentucky",
-                "visible": false
-            }
-        ],
-        "id": "eb0f54e8-dda6-4a96-a7a0-96d42507f309"
     },
     {
         "groupName": "Living In The Solution",
@@ -1184,39 +1151,6 @@
             }
         ],
         "id": "078b6f86-6616-4f03-8541-f29a385cfe66"
-    },
-    {
-        "groupName": "Acceptance Place",
-        "dayOfWeek": "Tuesday",
-        "time": 72000,
-        "address": {
-            "street": "1370 Hwy 79",
-            "city": "Irvington",
-            "state": "KY",
-            "zip": "40146"
-        },
-        "tags": [{
-                "tag": "Evening",
-                "visible": false
-            },
-            {
-                "tag": "Late",
-                "visible": false
-            },
-            {
-                "tag": "Open",
-                "visible": true
-            },
-            {
-                "tag": "Discussion",
-                "visible": true
-            },
-            {
-                "tag": "Kentucky",
-                "visible": false
-            }
-        ],
-        "id": "50be7e51-b23b-4547-8721-f981a45f7510"
     },
     {
         "groupName": "Just For Today",
@@ -2196,43 +2130,6 @@
             }
         ],
         "id": "1b76d700-8eb2-4e8f-9d13-e75c87166267"
-    },
-    {
-        "groupName": "Acceptance Place",
-        "dayOfWeek": "Thursday",
-        "time": 72000,
-        "address": {
-            "street": "1370 Hwy 79",
-            "city": "Irvington",
-            "state": "KY",
-            "zip": "40146"
-        },
-        "tags": [{
-                "tag": "Evening",
-                "visible": false
-            },
-            {
-                "tag": "Late",
-                "visible": false
-            },
-            {
-                "tag": "Open",
-                "visible": true
-            },
-            {
-                "tag": "Closed",
-                "visible": true
-            },
-            {
-                "tag": "Discussion",
-                "visible": true
-            },
-            {
-                "tag": "Kentucky",
-                "visible": false
-            }
-        ],
-        "id": "fd41f422-cb0f-4ca7-aa2b-501f1c0858df"
     },
     {
         "groupName": "Sanctuary",
