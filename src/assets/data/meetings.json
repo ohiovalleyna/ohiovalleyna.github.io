@@ -658,6 +658,31 @@
         "id": "41205ded-47c9-48c5-8fbe-a00d3f0e73e8"
     },
     {
+        "groupName": "Acceptance Group",
+        "dayOfWeek": "Monday",
+        "time": 72000,
+        "address": {
+            "street": "106 Walnut Street",
+            "city": "Irvington",
+            "state": "KY",
+            "zip": "40146"
+        },
+        "tags": [{
+                "tag": "Evening",
+                "visible": false
+            },
+            {
+                "tag": "Late",
+                "visible": false
+            },
+            {
+                "tag": "Kentucky",
+                "visible": false
+            }
+        ],
+        "id": "d503a92e-ea24-11e9-81b4-2a2ae2dbcce4"
+    },
+    {
         "groupName": "Welcome Home",
         "dayOfWeek": "Monday",
         "time": 72000,
@@ -1950,6 +1975,36 @@
             }
         ],
         "id": "93eab995-e089-4287-815e-316a8d11196f"
+    },
+    {
+        "groupName": "Labor of Love",
+        "dayOfWeek": "Thursday",
+        "time": 68400,
+        "location": "St. John Church of Christ (In the Parish House)",
+        "address": {
+            "street": "637 East Market Street",
+            "city": "Louisville",
+            "state": "KY",
+            "zip": "40202"
+        },
+        "tags": [{
+                "tag": "Evening",
+                "visible": false
+            },
+            {
+                "tag": "Closed",
+                "visible": true
+            },
+            {
+                "tag": "Literature Study",
+                "visible": true
+            },
+            {
+                "tag": "Kentucky",
+                "visible": false
+            }
+        ],
+        "id": "2b504930-ea26-11e9-81b4-2a2ae2dbcce4"
     },
     {
         "groupName": "Cool Changes",
