@@ -1978,11 +1978,11 @@
     },
     {
         "groupName": "Labor of Love",
-        "dayOfWeek": "Thursday",
+        "dayOfWeek": "Wednesday",
         "time": 68400,
-        "location": "St. John Church of Christ (In the Parish House)",
+        "location": "Grace Immanual United Church of Christ",
         "address": {
-            "street": "637 East Market Street",
+            "street": "1612 Story Ave",
             "city": "Louisville",
             "state": "KY",
             "zip": "40202"
