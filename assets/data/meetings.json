@@ -1573,36 +1573,6 @@
         "id": "efb8e24b-e967-4594-b903-a3d49e9ce9c2"
     },
     {
-        "groupName": "Labor of Love",
-        "dayOfWeek": "Wednesday",
-        "time": 68400,
-        "location": "Grace Immanual United Church of Christ",
-        "address": {
-            "street": "1612 Story Ave",
-            "city": "Louisville",
-            "state": "KY",
-            "zip": "40202"
-        },
-        "tags": [{
-                "tag": "Evening",
-                "visible": false
-            },
-            {
-                "tag": "Closed",
-                "visible": true
-            },
-            {
-                "tag": "Literature Study",
-                "visible": true
-            },
-            {
-                "tag": "Kentucky",
-                "visible": false
-            }
-        ],
-        "id": "2b504930-ea26-11e9-81b4-2a2ae2dbcce4"
-    },
-    {
         "groupName": "Escape From Denial",
         "dayOfWeek": "Wednesday",
         "time": 68400,
