@@ -45,8 +45,14 @@
         ]
     },
     {
-        "type": "RegionMinutes",
-        "display": "Region Minutes"
+        "type": "RegionDocuments",
+        "display": "Region Documents",
+        "files" : [
+            {
+                "linkText": "Region Policies and Procedures",
+                "filename": "assets/documents/Kentuckiana Region PP.pdf"
+            }
+        ]
     },
     {
         "type": "flyers",
