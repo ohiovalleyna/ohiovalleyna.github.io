@@ -14,6 +14,10 @@
                 "fileName": "assets/documents/OVANA ASC Meeting Minutes Sep19.pdf"
             },
             {
+                "linkText": "August 2019 Area Minutes",
+                "fileName": "assets/documents/OVANA ASC Minutes 25-Aug-19.pdf"
+            },
+            {
                 "linkText": "July 2019 Area Minutes",
                 "fileName": "assets/documents/OVANA ASC 28Jul2019.pdf"
             },
@@ -67,6 +71,10 @@
         "type": "AreaServiceDocuments",
         "display": "Area Service Documents",
         "files": [
+            { 
+                "linkText": "Home Group Report Template",
+                "fileName": "assets/documents/OVANA Home Group Report.pdf"
+            },
             {
                 "linkText": "July 2019 Draft of Policies and Procedures",
                 "fileName": "assets/documents/Proposed 2019 Draft of PP.pdf"
