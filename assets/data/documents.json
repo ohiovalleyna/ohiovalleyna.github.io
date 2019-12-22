@@ -2,12 +2,16 @@
         "type": "AreaMinutes",
         "display": "Area Minutes",
         "files": [
-            {
-                "linkText": "September 2019 Area Minutes",
-                "fileName": "assets/documents/OVANA ASC Meeting Minutes Sep19.pdf"
+            { 
+                "linkText": "November 2019 Area Minutes",
+                "fileName": "assets/documents/OVANA Nov. 24, 2019.pdf"
+            },
+            { 
+                "linkText": "October 2019 Area Minutes",
+                "fileName": "assets/documents/OVANA ASC Meeting Minutes Oct. 2019 Correct.pdf"
             },
             {
-                "linkText": "August 2019 Area Minutes",
+                "linkText": "September 2019 Area Minutes",
                 "fileName": "assets/documents/OVANA ASC Meeting Minutes Sep19.pdf"
             },
             {
