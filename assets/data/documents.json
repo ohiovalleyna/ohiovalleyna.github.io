@@ -1,12 +1,11 @@
 [{
         "type": "AreaMinutes",
         "display": "Area Minutes",
-        "files": [
-            { 
+        "files": [{
                 "linkText": "November 2019 Area Minutes",
                 "fileName": "assets/documents/OVANA Nov. 24, 2019.pdf"
             },
-            { 
+            {
                 "linkText": "October 2019 Area Minutes",
                 "fileName": "assets/documents/OVANA ASC Meeting Minutes Oct. 2019 Correct.pdf"
             },
@@ -51,27 +50,28 @@
     {
         "type": "RegionDocuments",
         "display": "Region Documents",
-        "files" : [
-            {
-                "linkText": "Region Policies and Procedures",
-                "fileName": "assets/documents/Kentuckiana Region PP.pdf"
-            }
-        ]
+        "files": [{
+            "linkText": "Region Policies and Procedures",
+            "fileName": "assets/documents/Kentuckiana Region PP.pdf"
+        }]
     },
     {
         "type": "flyers",
         "display": "Flyers",
-        "files": [
-            {
-                "linkText": "KRCNA 34 Flyer",
-                "fileName": "assets/documents/KRCNA 34 Flyer.pdf"
-            }
-        ]
+        "files": [{
+            "linkText": "KRCNA 34 Flyer",
+            "fileName": "assets/documents/KRCNA 34 Flyer.pdf"
+        }]
     },
     {
         "type": "AreaServiceDocuments",
         "display": "Area Service Documents",
-        "files": [{
+        "files": [
+            {
+                "linkText": "July 2019 Draft of Policies and Procedures",
+                "fileName": "assets/documents/Proposed 2019 Draft of PP.pdf"
+            },
+            {
                 "linkText": "Literature Order Form",
                 "fileName": "assets/documents/NAWS OrderForm_final_Dec2018.pdf"
             },
