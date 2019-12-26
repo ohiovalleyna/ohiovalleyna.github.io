@@ -1,37 +1,4 @@
 [{
-        "groupName": "Brave Surrender",
-        "dayOfWeek": "Sunday",
-        "time": 43200,
-        "location": "Borden Historical Museum",
-        "address": {
-            "street": "101 E Main St",
-            "city": "Borden",
-            "state": "IN",
-            "zip": "47106"
-        },
-        "tags": [{
-                "tag": "Open",
-                "visible": true
-            },
-            {
-                "tag": "Discussion",
-                "visible": true
-            },
-            {
-                "tag": "Literature",
-                "visible": true
-            },
-            {
-                "tag": "Speaker",
-                "visible": true
-            },
-            {
-                "tag": "Afternoon",
-                "visible": false
-            }
-        ]
-    },
-    {
         "groupName": "Recovery At Large",
         "dayOfWeek": "Sunday",
         "time": 46800,
