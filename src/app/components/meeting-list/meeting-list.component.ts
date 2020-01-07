@@ -1,6 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { Meeting } from '../../models/meeting';
 import { MeetingService } from '../../services/meeting/meeting.service';
+import * as moment from 'moment/moment';
 
 @Component({
   selector: 'app-meeting-list',
@@ -20,6 +21,7 @@ export class MeetingListComponent implements OnInit {
 
   onSelect(day: string): void {
     this.selectedDay = day;
+    this.filterText = '';
   }
 
   constructor(private meetingService: MeetingService) { }

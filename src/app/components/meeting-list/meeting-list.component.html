@@ -19,7 +19,7 @@
   <div class="card border-primary mb-3" style="max-width: 35rem;">
     <h3 class="card-header">{{ meeting.groupName }}</h3>
     <div class="card-body">
-      <h5 class="card-title">{{ meeting.dayOfWeek }}s at {{ meeting.time | time }}</h5>
+      <h5 class="card-title">{{ weekdays[meeting.dayOfWeek] }}s at {{ meeting.time| date: "h:mm a"}}</h5>
       <p class="card-text">
         <ng-template #meetingAddress>
           <ng-container *ngIf="meeting.location">{{ meeting.location }}<br /></ng-container>

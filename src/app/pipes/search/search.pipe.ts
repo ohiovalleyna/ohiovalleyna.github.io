@@ -24,7 +24,6 @@ export class SearchPipe implements PipeTransform {
   verifyFilters(meeting: Meeting, filter: string): boolean {
     return this.filterCheck(meeting.groupName, filter) ||
     this.filterCheck('' + meeting.dayOfWeek, filter) ||
-    this.filterCheck(new TimePipe().transform(meeting.time), filter) ||
     this.filterCheck(meeting.location, filter) ||
     this.filterCheck(meeting.address.street, filter) ||
     this.filterCheck(meeting.address.city, filter) ||

@@ -1,7 +1,8 @@
+import { Moment } from 'moment';
+
 export class Meeting {
-    id: string;
     groupName: string;
-    time: number;
+    time: Moment;
     dayOfWeek: DayOfWeek;
     tags: Tag[];
     location: string;
