@@ -56,7 +56,7 @@ export class MeetingService {
     }
 
     if (this.fallsBetweenTimes(time, '20:00', '23:59')) {
-      invisibleTags.push(this.getInvisibleTag('Evening'));
+      invisibleTags.push(this.getInvisibleTag('Late'));
     }
     return invisibleTags;
   }
