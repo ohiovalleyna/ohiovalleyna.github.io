@@ -1,5 +1,4 @@
 export interface MeetingData {
-    id: string;
     groupName: string;
     time: any;
     dayOfWeek: string;
