@@ -3,7 +3,7 @@
         "groupName": "Recovery At Large",
         "dayOfWeek": "Sunday",
         "time": "13:00:00",
-        "location": "Safe Harbor Club",
+        "location": "Safe Harbor",
         "address": {
             "street": "200 S Joe Prather Hwy",
             "city": "Vine Grove",
@@ -24,9 +24,12 @@
             "street": "2501 W. Market St",
             "city": "Louisville",
             "state": "KY",
-            "zip": "40175"
+            "zip": "40212"
         },
-        "tags": []
+        "tags": [
+            "Open",
+            "Discussion"
+        ]
     },
     {
         "groupName": "Recovering Minds",
@@ -34,7 +37,7 @@
         "time": "18:00:00",
         "location": "Floyd County Token Club Upstairs",
         "address": {
-            "street": "506 Pearl St.",
+            "street": "506 Pearl St",
             "city": "New Albany",
             "state": "IN",
             "zip": "47150"
@@ -55,48 +58,20 @@
             "state": "KY",
             "zip": "40175"
         },
-        "tags": []
-    },
-    {
-        "groupName": "Group 53",
-        "dayOfWeek": "Sunday",
-        "time": "18:30:00",
-        "location": "St Paul Evangal Lutheran",
-        "address": {
-            "street": "2304 Crums Lane",
-            "city": "Louisville",
-            "state": "KY",
-            "zip": "40216"
-        },
         "tags": [
             "Open",
             "Discussion",
+            "Speaker",
             "Wheelchair Accessible"
-        ]
-    },
-    {
-        "groupName": "Miracle On 22nd St.",
-        "dayOfWeek": "Sunday",
-        "time": "19:00:00",
-        "location": "Recovery Resource Center",
-        "address": {
-            "street": "2501 W Market St.",
-            "city": "Louisville",
-            "state": "KY",
-            "zip": "40212"
-        },
-        "tags": [
-            "Open",
-            "Discussion"
         ]
     },
     {
         "groupName": "Southwest NA Book Study",
         "dayOfWeek": "Sunday",
-        "time": "19:00:00",
-        "location": "Faith Presbyterian",
+        "time": "18:30:00",
+        "location": "Faith Prebyterian Church",
         "address": {
-            "street": "9800 Stonestreet",
+            "street": "9800 Stonestreet Rd",
             "city": "Louisville",
             "state": "KY",
             "zip": "40272"
@@ -108,19 +83,34 @@
         ]
     },
     {
-        "groupName": "Another Chance",
+        "groupName": "New Dawn",
         "dayOfWeek": "Sunday",
-        "time": "19:30:00",
+        "time": "19:00:00",
         "address": {
-            "street": "536 Frankfort Rd.",
-            "city": "Shelbyville",
+            "street": "416 S. Buckman St",
+            "city": "Shepherdsville",
             "state": "KY",
-            "zip": "40065"
+            "zip": "40165"
         },
         "tags": [
             "Open",
-            "Discussion",
-            "Wheelchair Accessible"
+            "Discussion"
+        ]
+    },
+    {
+        "groupName": "Miracle On 22nd St",
+        "dayOfWeek": "Sunday",
+        "time": "19:00:00",
+        "location": "Recovery Resource Center",
+        "address": {
+            "street": "2501 W. Market St",
+            "city": "Louisville",
+            "state": "KY",
+            "zip": "40212"
+        },
+        "tags": [
+            "Open",
+            "Discussion"
         ]
     },
     {
@@ -140,19 +130,37 @@
         ]
     },
     {
+        "groupName": "Another Chance",
+        "dayOfWeek": "Sunday",
+        "time": "19:30:00",
+        "location": "First Presbyterian Church",
+        "address": {
+            "street": "629 Main St",
+            "city": "Shelbyville",
+            "state": "KY",
+            "zip": "40065"
+        },
+        "tags": [
+            "Open",
+            "Discussion",
+            "Wheelchair Accessible"
+        ]
+    },
+    {
         "groupName": "The NA Meeting",
         "dayOfWeek": "Sunday",
         "time": "19:30:00",
-        "location": "Grace Immanuel Church",
+        "location": "Grace Immanuel United Church of Christ",
         "address": {
-            "street": "1612 Story Ave.",
+            "street": "1612 Story Ave",
             "city": "Louisville",
             "state": "KY",
             "zip": "40206"
         },
         "tags": [
             "Open",
-            "Discussion"
+            "Discussion",
+            "Speaker"
         ]
     },
     {
@@ -183,27 +191,18 @@
             "state": "KY",
             "zip": "42701"
         },
-        "tags": []
-    },
-    {
-        "groupName": "Me 4 You, You 4 Me",
-        "dayOfWeek": "Monday",
-        "time": "10:00:00",
-        "address": {
-            "street": "3540 W Jefferson",
-            "city": "Louisville",
-            "state": "KY",
-            "zip": "40212"
-        },
-        "tags": []
+        "tags": [
+            "Open",
+            "Discussion"
+        ]
     },
     {
         "groupName": "Caring Thru Sharing",
         "dayOfWeek": "Monday",
         "time": "12:00:00",
-        "location": "Presbyterian Church",
+        "location": "Bardstown Road Presbyterian Church",
         "address": {
-            "street": "1722 Bardstown Rdac",
+            "street": "1722 Bardstown Rd",
             "city": "Louisville",
             "state": "KY",
             "zip": "40205"
@@ -219,6 +218,7 @@
         "groupName": "Restored To Sanity",
         "dayOfWeek": "Monday",
         "time": "12:00:00",
+        "location": "Recovery Resource Center",
         "address": {
             "street": "2501 W Market St",
             "city": "Louisville",
@@ -236,7 +236,7 @@
         "time": "18:30:00",
         "location": "St. Pauls Episcopal Church",
         "address": {
-            "street": "321 E. Market St.",
+            "street": "321 E. Market St",
             "city": "Jeffersonville",
             "state": "IN",
             "zip": "47130"
@@ -251,8 +251,9 @@
         "groupName": "Women's Power Within",
         "dayOfWeek": "Monday",
         "time": "18:30:00",
+        "location": "Unity of Louisville",
         "address": {
-            "street": "757 S. Brook St.",
+            "street": "757 S. Brook St",
             "city": "Louisville",
             "state": "KY",
             "zip": "40203"
@@ -286,12 +287,31 @@
         "time": "19:00:00",
         "location": "Memphis Christian Church",
         "address": {
-            "street": "13503 Memphis Bluelick Rd.",
+            "street": "13503 Memphis Bluelick Rd",
             "city": "Memphis",
             "state": "IN",
             "zip": "47143"
         },
-        "tags": []
+        "tags": [
+            "Open"
+        ]
+    },
+    {
+        "groupName": "Southwest NA Book Study",
+        "dayOfWeek": "Monday",
+        "time": "19:00:00",
+        "location": "Faith Prebyterian Church",
+        "address": {
+            "street": "9800 Stonestreet Rd",
+            "city": "Louisville",
+            "state": "KY",
+            "zip": "40272"
+        },
+        "tags": [
+            "Open",
+            "Discussion",
+            "Literature Study"
+        ]
     },
     {
         "groupName": "Against All Odds",
@@ -299,13 +319,14 @@
         "time": "19:30:00",
         "location": "Church Of Our Merciful Savior",
         "address": {
-            "street": "473 S. 11th St.",
+            "street": "473 S. 11th St",
             "city": "Louisville",
             "state": "KY",
             "zip": "40203"
         },
         "tags": [
-            "Open"
+            "Open",
+            "Discussion"
         ]
     },
     {
@@ -314,7 +335,7 @@
         "time": "19:30:00",
         "location": "Floyd County Token Club Upstairs",
         "address": {
-            "street": "506 Pearl St.",
+            "street": "506 Pearl St",
             "city": "New Albany",
             "state": "IN",
             "zip": "47150"
@@ -336,7 +357,8 @@
             "zip": "40229"
         },
         "tags": [
-            "Open"
+            "Open",
+            "Chairperson's Choice"
         ]
     },
     {
@@ -349,34 +371,20 @@
             "state": "KY",
             "zip": "40146"
         },
-        "tags": []
-    },
-    {
-        "groupName": "Welcome Home",
-        "dayOfWeek": "Monday",
-        "time": "20:00:00",
-        "location": "EZ Duz It Club",
-        "address": {
-            "street": "6605 Lower Hunters Trace",
-            "city": "Louisville",
-            "state": "KY",
-            "zip": "40258"
-        },
         "tags": [
-            "Open",
-            "Literature Study"
+            "open",
+            "Discussion"
         ]
     },
     {
-        "groupName": "Just For Today",
+        "groupName": "Clean Connections",
         "dayOfWeek": "Monday",
         "time": "20:00:00",
-        "location": "Church Of The Ascension",
         "address": {
-            "street": "211 N. 3rd St.",
-            "city": "Bardstown",
-            "state": "KY",
-            "zip": "40004"
+            "street": "140 East Pleasant St",
+            "city": "Marengo",
+            "state": "IN",
+            "zip": "47140"
         },
         "tags": [
             "Open",
@@ -394,7 +402,11 @@
             "state": "KY",
             "zip": "40175"
         },
-        "tags": []
+        "tags": [
+            "Open",
+            "Discussion",
+            "Wheelchair Accessible"
+        ]
     },
     {
         "groupName": "Point Of Freedom",
@@ -402,7 +414,7 @@
         "time": "22:00:00",
         "location": "Chapel Of St. Philip Neri",
         "address": {
-            "street": "236 Woodbine St.",
+            "street": "236 Woodbine St",
             "city": "Louisville",
             "state": "KY",
             "zip": "40208"
@@ -413,24 +425,7 @@
         ]
     },
     {
-        "groupName": "Group 53",
-        "dayOfWeek": "Tuesday",
-        "time": "11:30:00",
-        "location": "St Paul Evangal Lutheran",
-        "address": {
-            "street": "2304 Crums Lane",
-            "city": "Louisville",
-            "state": "KY",
-            "zip": "40216"
-        },
-        "tags": [
-            "Open",
-            "Discussion",
-            "Wheelchair Accessible"
-        ]
-    },
-    {
-        "groupName": "More will be revealed",
+        "groupName": "More Will Be Revealed",
         "dayOfWeek": "Tuesday",
         "time": "12:00:00",
         "location": "Highland Vineyard",
@@ -441,6 +436,7 @@
             "zip": "40204"
         },
         "tags": [
+            "Open",
             "Literature Study"
         ]
     },
@@ -467,13 +463,14 @@
         "time": "12:30:00",
         "location": "Northeast Clifton Campus",
         "address": {
-            "street": "131 Vernon Ave.",
+            "street": "131 Vernon Ave",
             "city": "Louisville",
             "state": "KY",
             "zip": "40206"
         },
         "tags": [
             "Open",
+            "Discussion",
             "Wheelchair Accessible"
         ]
     },
@@ -496,7 +493,7 @@
         "time": "18:30:00",
         "location": "V.O.A. Building",
         "address": {
-            "street": "1436 S. Shelby St.",
+            "street": "1436 S. Shelby St",
             "city": "Louisville",
             "state": "KY",
             "zip": "40216"
@@ -544,7 +541,7 @@
         "time": "19:00:00",
         "location": "Green St. Baptist Church",
         "address": {
-            "street": "519 E. Gray St.",
+            "street": "519 E. Gray St",
             "city": "Louisville",
             "state": "KY",
             "zip": "40202"
@@ -560,7 +557,7 @@
         "time": "19:30:00",
         "location": "Lukes Church",
         "address": {
-            "street": "329 Walnut ST.",
+            "street": "329 Walnut ST",
             "city": "Jeffersonville",
             "state": "IN",
             "zip": "47130"
@@ -609,7 +606,7 @@
         "time": "20:00:00",
         "location": "Church Of The Ascension",
         "address": {
-            "street": "211N. 3rd St.",
+            "street": "211N. 3rd St",
             "city": "Bardstown",
             "state": "KY",
             "zip": "40004"
@@ -625,7 +622,7 @@
         "time": "20:00:00",
         "location": "Hillsdale Baptist Church",
         "address": {
-            "street": "4714 E. Pages Ln.",
+            "street": "4714 E. Pages Ln",
             "city": "Louisville",
             "state": "KY",
             "zip": "40272"
@@ -658,7 +655,7 @@
         "time": "20:00:00",
         "location": "Ice House",
         "address": {
-            "street": "1400 S. Shelby St.",
+            "street": "1400 S. Shelby St",
             "city": "Louisville",
             "state": "KY",
             "zip": "40217"
@@ -690,7 +687,7 @@
         "time": "20:00:00",
         "location": "The Gift House",
         "address": {
-            "street": "107 West Third St.",
+            "street": "107 West Third St",
             "city": "Hardinsburg",
             "state": "KY",
             "zip": "40143"
@@ -914,7 +911,7 @@
         "time": "22:00:00",
         "location": "Chapel Of St. Philip Neri",
         "address": {
-            "street": "236 Woodbine St.",
+            "street": "236 Woodbine St",
             "city": "Louisville",
             "state": "KY",
             "zip": "40208"
@@ -947,7 +944,7 @@
         "time": "12:30:00",
         "location": "Northeast Clifton Campus",
         "address": {
-            "street": "131 Vernon Ave.",
+            "street": "131 Vernon Ave",
             "city": "Louisville",
             "state": "KY",
             "zip": "40206"
@@ -978,7 +975,7 @@
         "time": "18:30:00",
         "location": "Davidson Memorial Baptist Church",
         "address": {
-            "street": "265 S. Buckman St.",
+            "street": "265 S. Buckman St",
             "city": "Shepherdsville",
             "state": "KY",
             "zip": "40165"
@@ -1095,7 +1092,7 @@
         "time": "20:00:00",
         "location": "Lincoln Trail Hospital",
         "address": {
-            "street": "3909 S. Wilson Rd.",
+            "street": "3909 S. Wilson Rd",
             "city": "Radcliff",
             "state": "KY",
             "zip": "42701"
@@ -1319,7 +1316,7 @@
         "time": "20:00:00",
         "location": "Passages WOMEN ONLY",
         "address": {
-            "street": "615 Westport Rd.",
+            "street": "615 Westport Rd",
             "city": "Elizabethtown",
             "state": "KY",
             "zip": "42701"
@@ -1447,7 +1444,7 @@
         "time": "12:30:00",
         "location": "Northeast Clifton Campus",
         "address": {
-            "street": "131 Vernon Ave.",
+            "street": "131 Vernon Ave",
             "city": "Louisville",
             "state": "KY",
             "zip": "40206"
@@ -1496,7 +1493,7 @@
         "time": "17:00:00",
         "location": "TARC Union Hall",
         "address": {
-            "street": "2222 S 9th St.",
+            "street": "2222 S 9th St",
             "city": "Louisville",
             "state": "KY",
             "zip": "40208"

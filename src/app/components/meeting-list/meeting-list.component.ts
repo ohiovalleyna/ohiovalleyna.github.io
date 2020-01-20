@@ -16,7 +16,7 @@ export class MeetingListComponent implements OnInit {
 
   getMeetings(): void {
     this.meetingService.getMeetings().subscribe(
-      meetings => this.meetings = meetings);
+      meetings => this.meetings = this.meetingService.sortMeetings(meetings, true));
   }
 
   onSelect(day: string): void {

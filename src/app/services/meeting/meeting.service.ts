@@ -77,5 +77,16 @@ export class MeetingService {
     return tags.map(providedTag => ({ tag: providedTag, visible: true}));
   }
 
+  sortMeetings(meetings: Meeting[], isAsc: boolean): Meeting[] {
+    return meetings.sort((a, b) => {
+      const dayOfWeekValue = b.dayOfWeek - a.dayOfWeek;
+      const timeValue = b.time.diff(a.time);
+      const nameValue = b.groupName.localeCompare(a.groupName);
+      return (isAsc ? -1 : 1) * (dayOfWeekValue || timeValue || nameValue);
+    });
+  }
+
+
+
   constructor(private http: HttpClient) { }
 }

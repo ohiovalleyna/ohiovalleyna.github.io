@@ -6,8 +6,14 @@ with open('src/assets/data/meetings.json', 'r') as json_file:
     meetings = json.loads(json_file.read())
 
 new_meetings = meetings.copy()
+dict_meetings = {}
 
 for meeting in meetings:
-    meeting.pop('id')
+    dayOfWeek = meeting.pop('dayOfWeek')
 
-print(json.dumps(meetings))
+    if dayOfWeek not in dict_meetings:
+        dict_meetings[dayOfWeek] = []
+
+    dict_meetings[dayOfWeek].append(meeting)
+
+print(json.dumps(dict_meetings))
