@@ -1,4 +1,22 @@
-[{
+[
+  {
+    "groupName": "Group 53",
+    "dayOfWeek": "Sunday",
+    "time": "11:00:00",
+    "location": "Jefferson Mall Food Court",
+    "address": {
+      "street": "4801 Outer Loop",
+      "city": "Louisville",
+      "state": "KY",
+      "zip" : "40219"
+    },
+    "tags": [
+      "Closed",
+      "Step Working Guide Study",
+      "Wheelchair Accessible"
+    ]
+  },
+  {
     "groupName": "Recovery At Large",
     "dayOfWeek": "Sunday",
     "time": "13:00:00",
@@ -408,6 +426,21 @@
     ]
   },
   {
+    "groupName": "Welcome Home",
+    "dayOfWeek": "Monday",
+    "time": "20:00:00",
+    "address": {
+      "street": "6605 Lower Hunters Trace",
+      "city": "Louisville",
+      "state": "KY",
+      "zip": "40258"
+    },
+    "tags": [
+      "Open",
+      "Literature Study"
+    ]
+  },
+  {
     "groupName": "Point Of Freedom",
     "dayOfWeek": "Monday",
     "time": "22:00:00",
@@ -648,6 +681,21 @@
     ]
   },
   {
+    "groupName": "Welcome Home",
+    "dayOfWeek": "Tuesday",
+    "time": "20:00:00",
+    "address": {
+      "street": "6605 Lower Hunters Trace",
+      "city": "Louisville",
+      "state": "KY",
+      "zip": "40258"
+    },
+    "tags": [
+      "Open",
+      "Literature Study"
+    ]
+  },
+  {
     "groupName": "Caring Thru Sharing",
     "dayOfWeek": "Wednesday",
     "time": "12:00:00",
@@ -681,22 +729,6 @@
       "Discussion",
       "Chairperson's Choice",
       "Wheelchair Accessible"
-    ]
-  },
-  {
-    "groupName": "Freedom To Live",
-    "dayOfWeek": "Wednesday",
-    "time": "12:00:00",
-    "location": "Davidson Memorial Methodist Church",
-    "address": {
-      "street": "265 S. Buckman St",
-      "city": "Shepherdsville",
-      "state": "KY",
-      "zip": "40165"
-    },
-    "tags": [
-      "Open",
-      "Discussion"
     ]
   },
   {
@@ -1001,10 +1033,10 @@
     "dayOfWeek": "Thursday",
     "time": "19:30:00",
     "address": {
-      "street": "3620 W. Broadway",
+      "street": "809 W. Chestnut St",
       "city": "Louisville",
       "state": "KY",
-      "zip": "40211"
+      "zip": "40203"
     },
     "tags": [
       "Open",
