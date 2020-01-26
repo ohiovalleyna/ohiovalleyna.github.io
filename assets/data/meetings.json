@@ -601,22 +601,6 @@
     ]
   },
   {
-    "groupName": "Stop The Madness",
-    "dayOfWeek": "Tuesday",
-    "time": "19:30:00",
-    "location": "Peace Presbyterian Church",
-    "address": {
-      "street": "4210 E. Indian Trail",
-      "city": "Louisville",
-      "state": "KY",
-      "zip": "40213"
-    },
-    "tags": [
-      "Open",
-      "Basic Text Study"
-    ]
-  },
-  {
     "groupName": "Another Day Clean",
     "dayOfWeek": "Tuesday",
     "time": "20:00:00",
