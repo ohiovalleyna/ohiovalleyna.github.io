@@ -394,21 +394,6 @@
     ]
   },
   {
-    "groupName": "Clean Connections",
-    "dayOfWeek": "Monday",
-    "time": "20:00:00",
-    "address": {
-      "street": "140 East Pleasant St",
-      "city": "Marengo",
-      "state": "IN",
-      "zip": "47140"
-    },
-    "tags": [
-      "Open",
-      "Discussion"
-    ]
-  },
-  {
     "groupName": "Living In The Solution",
     "dayOfWeek": "Monday",
     "time": "20:00:00",
@@ -613,22 +598,6 @@
     "tags": [
       "Open",
       "Literature Study"
-    ]
-  },
-  {
-    "groupName": "Stop The Madness",
-    "dayOfWeek": "Tuesday",
-    "time": "19:30:00",
-    "location": "Peace Presbyterian Church",
-    "address": {
-      "street": "4210 E. Indian Trail",
-      "city": "Louisville",
-      "state": "KY",
-      "zip": "40213"
-    },
-    "tags": [
-      "Open",
-      "Basic Text Study"
     ]
   },
   {
