@@ -1,7 +1,12 @@
 [{
         "type": "AreaMinutes",
         "display": "Area Minutes",
-        "files": [{
+        "files": [
+            {
+                "linkText": "January 2020 Area Minutes",
+                "fileName": "assets/documents/OVANA ASC 26JAN2020.pdf"
+            },
+            {
                 "linkText": "December 2019 Area Minutes",
                 "fileName": "assets/documents/OVANA 22Dec2019 Minutes.pdf"
             },
