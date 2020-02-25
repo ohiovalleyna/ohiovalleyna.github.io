@@ -1,7 +1,12 @@
 [{
         "type": "AreaMinutes",
         "display": "Area Minutes",
-        "files": [{
+        "files": [
+            {
+                "linkText": "January 2020 Area Minutes",
+                "fileName": "assets/documents/OVANA ASC 26JAN2020.pdf"
+            },
+            {
                 "linkText": "December 2019 Area Minutes",
                 "fileName": "assets/documents/OVANA 22Dec2019 Minutes.pdf"
             },
@@ -67,28 +72,29 @@
         "type": "Flyers",
         "display": "Flyers",
         "files": [{
-            "linkText": "KRCNA 34 Flyer",
-            "fileName": "assets/documents/KRCNA 34 Flyer.pdf"
-        }]
+                "linkText": "KRCNA 34 Flyer",
+                "fileName": "assets/documents/KRCNA 34 Flyer.pdf"
+            },
+            {
+                "linkText": "Treat Yo' Self Pancake Breakfast",
+                "fileName": "assets/documents/Pancake Breakfast.jpeg"
+            }
+        ]
     },
     {
         "type": "AreaServiceDocuments",
         "display": "Area Service Documents",
         "files": [{
+                "linkText": "Policy and Procedures Manual",
+                "fileName": "assets/documents/PP Manual2020.pdf"
+            },
+            {
                 "linkText": "Home Group Report Template",
                 "fileName": "assets/documents/OVANA Home Group Report.pdf"
             },
             {
-                "linkText": "July 2019 Draft of Policies and Procedures",
-                "fileName": "assets/documents/Proposed 2019 Draft of PP.pdf"
-            },
-            {
                 "linkText": "Literature Order Form",
                 "fileName": "assets/documents/NAWS OrderForm_final_Dec2018.pdf"
-            },
-            {
-                "linkText": "Policy and Procedures",
-                "fileName": "assets/documents/PP.pdf"
             }
         ]
     }
