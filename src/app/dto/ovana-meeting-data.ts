@@ -1,4 +1,4 @@
-export interface MeetingData {
+export interface OvanaMeetingData {
     groupName: string;
     time: any;
     dayOfWeek: string;

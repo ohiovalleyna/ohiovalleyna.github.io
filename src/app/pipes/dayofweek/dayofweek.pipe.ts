@@ -16,7 +16,7 @@ export class DayOfWeekPipe implements PipeTransform {
     }
 
     return meetingList.filter( meeting =>
-      meeting.dayOfWeek == (<any>DayOfWeek)[dayOfWeek]
+      meeting.dayOfWeek === (<any>DayOfWeek)[dayOfWeek]
     );
   }
 

@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { Meeting } from '../../models/meeting';
 import { MeetingService } from '../../services/meeting/meeting.service';
-import * as moment from 'moment/moment';
+import { DayOfWeekService } from 'src/app/services/weekday/day-of-week.service';
 
 @Component({
   selector: 'app-meeting-list',
@@ -24,19 +24,12 @@ export class MeetingListComponent implements OnInit {
     this.filterText = '';
   }
 
-  constructor(private meetingService: MeetingService) { }
+  constructor(private meetingService: MeetingService,
+    private dayOfWeekService: DayOfWeekService) { }
 
   ngOnInit() {
     const d = new Date();
-    this.weekdays = new Array(7);
-    this.weekdays[0] = 'Sunday';
-    this.weekdays[1] = 'Monday';
-    this.weekdays[2] = 'Tuesday';
-    this.weekdays[3] = 'Wednesday';
-    this.weekdays[4] = 'Thursday';
-    this.weekdays[5] = 'Friday';
-    this.weekdays[6] = 'Saturday';
-
+    this.weekdays = this.dayOfWeekService.getWeekdayStringList();
     this.selectedDay = this.weekdays[d.getDay()];
     this.getMeetings();
   }

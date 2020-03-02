@@ -1,7 +1,7 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 import { FormsModule } from '@angular/forms';
-import { HttpClientModule } from '@angular/common/http';
+import { HttpClientModule, HttpClientJsonpModule } from '@angular/common/http';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { TimePipe } from './pipes/time/time.pipe';
@@ -15,6 +15,9 @@ import { DayOfWeekPipe } from './pipes/dayofweek/dayofweek.pipe';
 import { DocumentsComponent } from './components/documents/documents.component';
 import { NavbarComponent } from './components/navbar/navbar/navbar.component';
 import { AddresslinkPipe } from './pipes/addresslink/addresslink.pipe';
+import { OvanaMeetingRetrieverService } from './services/meeting-retriever/ovana-meeting-retriever.service';
+import { MeetingRetrieverService } from './services/meeting-retriever/meeting-retriever.service';
+import { BmltMeetingRetrieverService } from './services/meeting-retriever/bmlt-meeting-retriever.service';
 
 @NgModule({
   declarations: [
@@ -36,9 +39,12 @@ import { AddresslinkPipe } from './pipes/addresslink/addresslink.pipe';
     BrowserModule,
     AppRoutingModule,
     FormsModule,
-    HttpClientModule
+    HttpClientModule,
+    HttpClientJsonpModule
   ],
-  providers: [],
+  providers: [
+    { provide: MeetingRetrieverService, useClass: BmltMeetingRetrieverService}
+  ],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
