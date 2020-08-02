@@ -2,8 +2,9 @@ import { Component, OnInit } from '@angular/core';
 import { Document, File } from '../../models/document';
 import { DocumentService } from '../../services/document/document.service';
 import { ActivatedRoute, Router } from '@angular/router';
+import { map } from 'rxjs/operators';
 @Component({
-  selector: 'app--documents',
+  selector: 'app-documents',
   templateUrl: './documents.component.html',
   styleUrls: ['./documents.component.css']
 })
@@ -14,14 +15,19 @@ export class DocumentsComponent implements OnInit {
   constructor(private documentService: DocumentService,
     private route: ActivatedRoute,
     private router: Router) {
-      this.router.routeReuseStrategy.shouldReuseRoute = () => false;
+    this.router.routeReuseStrategy.shouldReuseRoute = () => false;
   }
 
   ngOnInit() {
-    this.route.params.subscribe(params => {
-      this.documentType = params['document-type'];
-    });
-    this.documentService.getDocuments().subscribe(
-      documents => this.documents = documents.filter(documentType => documentType.type === this.documentType));
+    this.route.params
+      .pipe(
+        map(params => this.documentType = params['document-type'])
+      )
+      .subscribe(docType => {
+        this.documentType = docType;
+        this.documentService.getDocuments(docType).subscribe(
+          documents => this.documents = documents
+        )
+      });
   }
 }
