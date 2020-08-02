@@ -1,100 +1,107 @@
 [{
-        "type": "AreaMinutes",
+        "type": "area-minutes",
         "display": "Area Minutes",
-        "files": [
+        "baseUrl": "assets/documents/minutes",
+        "files": [{
+                "linkText": "July 2020 Area Minutes",
+                "fileName": "2020-07.pdf"
+            },
+            {
+                "linkText": "June 2020 Area Minutes",
+                "fileName": "2020-06.pdf"
+            }, 
             {
                 "linkText": "January 2020 Area Minutes",
-                "fileName": "assets/documents/OVANA ASC 26JAN2020.pdf"
+                "fileName": "2020-01.pdf"
             },
             {
                 "linkText": "December 2019 Area Minutes",
-                "fileName": "assets/documents/OVANA 22Dec2019 Minutes.pdf"
+                "fileName": "2019-12.pdf"
             },
             {
                 "linkText": "November 2019 Area Minutes",
-                "fileName": "assets/documents/OVANA Nov. 24, 2019.pdf"
+                "fileName": "2019-11.pdf"
             },
             {
                 "linkText": "October 2019 Area Minutes",
-                "fileName": "assets/documents/OVANA ASC Meeting Minutes Oct. 2019 Correct.pdf"
+                "fileName": "2019-10.pdf"
             },
             {
                 "linkText": "September 2019 Area Minutes",
-                "fileName": "assets/documents/OVANA ASC Meeting Minutes Sep19.pdf"
+                "fileName": "2019-09.pdf"
             },
             {
                 "linkText": "August 2019 Area Minutes",
-                "fileName": "assets/documents/OVANA ASC Minutes 25-Aug-19.pdf"
+                "fileName": "2019-08.pdf"
             },
             {
                 "linkText": "July 2019 Area Minutes",
-                "fileName": "assets/documents/OVANA ASC 28Jul2019.pdf"
+                "fileName": "2019-07.pdf"
             },
             {
                 "linkText": "June 2019 Area Minutes",
-                "fileName": "assets/documents/OVANA ASC 30Jun2019.pdf"
+                "fileName": "2019-06.pdf"
             },
             {
                 "linkText": "May 2019 Area Minutes",
-                "fileName": "assets/documents/OvanaAreaMay2019.pdf"
+                "fileName": "2019-05.pdf"
             },
             {
                 "linkText": "April 2019 Area Minutes",
-                "fileName": "assets/documents/OVANA ASC 28APR2019.pdf"
+                "fileName": "2019-04.pdf"
             },
             {
                 "linkText": "March 2019 Area Minutes",
-                "fileName": "assets/documents/OVANA ASC 31Mar2019 .pdf"
+                "fileName": "2019-03.pdf"
             },
             {
                 "linkText": "February 2019 Area Minutes",
-                "fileName": "assets/documents/OVANA ASC 24FEB19 Minutes.pdf"
+                "fileName": "2019-02.pdf"
             },
             {
                 "linkText": "January 2019 Area Minutes",
-                "fileName": "assets/documents/OVANA ASC Minutes 27Jan2019.pdf"
+                "fileName": "2019-01.pdf"
             },
             {
                 "linkText": "December 2018 Area Minutes",
-                "fileName": "assets/documents/OVANA December 2018 Area Minutes.pdf"
+                "fileName": "2018-12.pdf"
             }
         ]
     },
     {
-        "type": "RegionDocuments",
+        "type": "region-documents",
         "display": "Region Documents",
+        "baseUrl": "assets/documents/region",
         "files": [{
             "linkText": "Region Policies and Procedures",
-            "fileName": "assets/documents/Kentuckiana Region PP.pdf"
+            "fileName": "region-policies-and-procedures.pdf"
         }]
     },
     {
-        "type": "Flyers",
+        "type": "flyers",
         "display": "Flyers",
-        "files": [{
-                "linkText": "KRCNA 34 Flyer",
-                "fileName": "assets/documents/KRCNA 34 Flyer.pdf"
-            },
-            {
-                "linkText": "Treat Yo' Self Pancake Breakfast",
-                "fileName": "assets/documents/Pancake Breakfast.jpeg"
-            }
-        ]
+        "assets/documents": "assets/documents/flyers",
+        "files": []
     },
     {
-        "type": "AreaServiceDocuments",
-        "display": "Area Service Documents",
+        "type": "area-documents",
+        "display": "Forms",
+        "baseUrl": "assets/documents/area-documents",
         "files": [{
                 "linkText": "Policy and Procedures Manual",
-                "fileName": "assets/documents/PP Manual2020.pdf"
+                "fileName": "policies-and-procedures.pdf"
             },
             {
                 "linkText": "Home Group Report Template",
-                "fileName": "assets/documents/OVANA Home Group Report.pdf"
+                "fileName": "home-group-report.pdf"
             },
             {
                 "linkText": "Literature Order Form",
-                "fileName": "assets/documents/NAWS OrderForm_final_Dec2018.pdf"
+                "fileName": "literature-order-form.pdf"
+            },
+            {
+                "linkText": "OVANA Meeting Schedule",
+                "fileName": "meeting-schedule.pdf"
             }
         ]
     }
