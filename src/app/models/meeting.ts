@@ -6,7 +6,7 @@ export class Meeting {
     dayOfWeek: DayOfWeek;
     tags: Tag[];
     location: string;
-    address: Address;
+    address?: Address;
 }
 
 export class Address {
