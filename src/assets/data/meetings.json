@@ -32,6 +32,17 @@
     ]
   },
   {
+    "groupName": "Women's Power Within - Online",
+    "dayOfWeek": "Monday",
+    "time": "18:30:00",
+    "location": "Zoom Meeting - Please email 502areana@gmail.com for meeting ID",
+    "tags": [
+      "Closed",
+      "Women Only",
+      "Discussion"
+    ]
+  },
+  {
     "groupName": "Dope Or Us",
     "dayOfWeek": "Monday",
     "time": "19:30:00",
@@ -80,6 +91,37 @@
     ]
   },
   {
+    "groupName": "Release the Control",
+    "dayOfWeek": "Tuesday",
+    "time": "19:30:00",
+    "address": {
+      "street": "305 East Walnut St.",
+      "city": "Salem",
+      "state": "IN",
+      "zip": "47167"
+    },
+    "tags": [
+      "Open",
+      "Discussion"
+    ]
+  },
+  {
+    "groupName": "End of the Road",
+    "dayOfWeek": "Tuesday",
+    "time": "19:30:00",
+    "location": "Floyd County Token Club, Upstairs",
+    "address": {
+      "street": "506 Pearl St",
+      "city": "New Albany",
+      "state": "IN",
+      "zip": "47150"
+    },
+    "tags": [
+      "Open",
+      "Discussion"
+    ]
+  },
+  {
     "groupName": "Home Sweet Home",
     "dayOfWeek": "Wednesday",
     "time": "19:30:00",
@@ -94,6 +136,22 @@
       "Open",
       "Discussion",
       "Wheelchair Accessible"
+    ]
+  },
+  {
+    "groupName": "The Next Right Thing",
+    "dayOfWeek": "Wednesday",
+    "time": "19:30:00",
+    "location": "Floyd County Token Club, Upstairs",
+    "address": {
+      "street": "506 Pearl St",
+      "city": "New Albany",
+      "state": "IN",
+      "zip": "47150"
+    },
+    "tags": [
+      "Open",
+      "Discussion"
     ]
   },
   {
@@ -113,34 +171,31 @@
     ]
   },
   {
-    "groupName": "HOW",
+    "groupName": "Sanctuary",
     "dayOfWeek": "Thursday",
-    "time": "19:30:00",
-    "location": "First Church of God",
+    "time": "20:00:00",
+    "location": "Floyd County Token Club, Upstairs",
     "address": {
-      "street": "2248 Charlestown Rd",
+      "street": "506 Pearl St",
       "city": "New Albany",
       "state": "IN",
       "zip": "47150"
     },
     "tags": [
       "Open",
-      "Discussion",
-      "Literature Study",
-      "Wheelchair Accessible",
-      "Juice"
+      "Chairperson's Choice"
     ]
   },
   {
-    "groupName": "Hope for Us",
-    "dayOfWeek": "Saturday",
-    "time": "14:00:00",
-    "location": "First Presbyterian Church",
+    "groupName": "The Next Right Thing",
+    "dayOfWeek": "Friday",
+    "time": "19:30:00",
+    "location": "Floyd County Token Club, Upstairs",
     "address": {
-      "street": "396 McClain Ave",
-      "city": "Scottsburg",
+      "street": "506 Pearl St",
+      "city": "New Albany",
       "state": "IN",
-      "zip": "47170"
+      "zip": "47150"
     },
     "tags": [
       "Open",
@@ -157,6 +212,22 @@
       "city": "Corydon",
       "state": "IN",
       "zip": "47112"
+    },
+    "tags": [
+      "Open",
+      "Discussion"
+    ]
+  },
+  {
+    "groupName": "The Pop Up Meeting",
+    "dayOfWeek": "Saturday",
+    "time": "19:30:00",
+    "location": "Floyd County Token Club, Upstairs",
+    "address": {
+      "street": "506 Pearl St",
+      "city": "New Albany",
+      "state": "IN",
+      "zip": "47150"
     },
     "tags": [
       "Open",

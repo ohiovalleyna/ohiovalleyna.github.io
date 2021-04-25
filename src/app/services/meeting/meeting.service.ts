@@ -32,14 +32,16 @@ export class MeetingService {
     return meeting;
   }
 
-  getInvisibleTags(meeting: Meeting) : Tag[] {
+  getInvisibleTags(meeting: Meeting): Tag[] {
     const invisibleTags: Tag[] = [];
-    const state = meeting.address.state;
-    if (state === 'KY') {
-      invisibleTags.push(this.getInvisibleTag('Kentucky'));
-    }
-    if (state === 'IN') {
-      invisibleTags.push(this.getInvisibleTag('Indiana'));
+    if (meeting.address) {
+      const state = meeting.address.state;
+      if (state === 'KY') {
+        invisibleTags.push(this.getInvisibleTag('Kentucky'));
+      }
+      if (state === 'IN') {
+        invisibleTags.push(this.getInvisibleTag('Indiana'));
+      }
     }
 
     const time = meeting.time;
@@ -58,23 +60,24 @@ export class MeetingService {
     if (this.fallsBetweenTimes(time, '20:00', '23:59')) {
       invisibleTags.push(this.getInvisibleTag('Late'));
     }
+
     return invisibleTags;
   }
 
 
-  fallsBetweenTimes(time: Moment, beginningOfWindow: string, endOfWindow: string) : boolean {
+  fallsBetweenTimes(time: Moment, beginningOfWindow: string, endOfWindow: string): boolean {
     const timeFormatString = 'HH:mm';
     const startTime = moment(beginningOfWindow, timeFormatString);
     const endTime = moment(endOfWindow, timeFormatString);
     return time.isSameOrAfter(startTime) && time.isSameOrBefore(endTime);
   }
 
-  getInvisibleTag(tagString: string) : Tag {
+  getInvisibleTag(tagString: string): Tag {
     return { tag: tagString, visible: false };
   }
-  
+
   getVisibleTags(tags: string[]): Tag[] {
-    return tags.map(providedTag => ({ tag: providedTag, visible: true}));
+    return tags.map(providedTag => ({ tag: providedTag, visible: true }));
   }
 
   sortMeetings(meetings: Meeting[], isAsc: boolean): Meeting[] {
