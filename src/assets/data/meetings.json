@@ -1,5 +1,4 @@
-[
-  {
+[{
     "groupName": "Recovering Minds",
     "dayOfWeek": "Sunday",
     "time": "18:00:00",
@@ -155,6 +154,23 @@
     ]
   },
   {
+    "groupName": "How It Works",
+    "dayOfWeek": "Wednesday",
+    "time": "19:30:00",
+    "location": "Resurrection Church",
+    "address": {
+      "street": "4100 Southern Parkway",
+      "city": "Louisville",
+      "state": "KY",
+      "zip": "40214"
+    },
+    "tags": [
+      "Open",
+      "Discussion",
+      "Wheelchair Accessible"
+    ]
+  },
+  {
     "groupName": "Hope for Us",
     "dayOfWeek": "Thursday",
     "time": "19:00:00",
@@ -232,6 +248,22 @@
     "tags": [
       "Open",
       "Discussion"
+    ]
+  },
+  {
+    "groupName": "Take It E-Z",
+    "dayOfWeek": "Saturday",
+    "time": "20:00:00",
+    "location": "Hillsdale Baptist Church",
+    "address": {
+      "street": "4714 E Pages Ln",
+      "city": "Louisville",
+      "state": "KY",
+      "zip": "40272"
+    },
+    "tags": [
+      "Open",
+      "Chairperson's Choice"
     ]
   },
   {
