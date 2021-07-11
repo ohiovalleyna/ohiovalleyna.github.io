@@ -5,6 +5,26 @@
     "baseUrl": "assets/documents/minutes",
     "files": [
       {
+        "linkText": "June 2021 Area Minutes",
+        "fileName": "2021-06.pdf"
+      },
+      {
+        "linkText": "May 2021 Area Minutes",
+        "fileName": "2021-05.pdf"
+      },
+      {
+        "linkText": "April 2021 Area Minutes",
+        "fileName": "2021-04.pdf"
+      },
+      {
+        "linkText": "March 2021 Area Minutes",
+        "fileName": "2021-03.pdf"
+      },
+      {
+        "linkText": "February 2021 Area Minutes",
+        "fileName": "2021-02.pdf"
+      },
+      {
         "linkText": "December 2020 Area Minutes",
         "fileName": "2020-12.pdf"
       },
