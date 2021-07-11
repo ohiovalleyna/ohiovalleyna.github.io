@@ -15,6 +15,23 @@
     ]
   },
   {
+    "groupName": "Walkin & Talkin Recovery",
+    "dayOfWeek": "Sunday",
+    "time": "19:30:00",
+    "location": "Community Missionary Baptist Church Annex",
+    "address": {
+      "street": "4909 Indian Trail",
+      "city": "Louisville",
+      "state": "KY",
+      "zip": "40218"
+    },
+    "tags": [
+      "Open",
+      "Discussion",
+      "Wheelchair Accessible"
+    ]
+  },
+  {
     "groupName": "Home Sweet Home",
     "dayOfWeek": "Sunday",
     "time": "19:30:00",
@@ -38,6 +55,22 @@
     "tags": [
       "Closed",
       "Women Only",
+      "Discussion"
+    ]
+  },
+  {
+    "groupName": "Against All Odds",
+    "dayOfWeek": "Monday",
+    "time": "19:30:00",
+    "location": "Church Of Our Merciful Savior",
+    "address": {
+      "street": "473 S. 11th St",
+      "city": "Louisville",
+      "state": "KY",
+      "zip": "40203"
+    },
+    "tags": [
+      "Open",
       "Discussion"
     ]
   },
@@ -187,6 +220,22 @@
     ]
   },
   {
+    "groupName": "Recovery Today",
+    "dayOfWeek": "Thursday",
+    "time": "19:00:00",
+    "location": "Beargrass Christian Church Room 202",
+    "address": {
+      "street": "4100 Shelbyville Rd",
+      "city": "Louisville",
+      "state": "KY",
+      "zip": "40207"
+    },
+    "tags": [
+      "Open",
+      "Discussion"
+    ]
+  },
+  {
     "groupName": "Sanctuary",
     "dayOfWeek": "Thursday",
     "time": "20:00:00",
@@ -216,6 +265,23 @@
     "tags": [
       "Open",
       "Discussion"
+    ]
+  },
+  {
+    "groupName": "Highland Peace",
+    "dayOfWeek": "Friday",
+    "time": "20:00:00",
+    "location": "Highland Baptist Church",
+    "address": {
+      "street": "1101 Cherokee Rd",
+      "city": "Louisville",
+      "state": "KY",
+      "zip": "40204"
+    },
+    "tags": [
+      "Open",
+      "Speaker",
+      "Wheelchair Accessible"
     ]
   },
   {
