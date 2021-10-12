@@ -51,7 +51,13 @@
     "groupName": "Women's Power Within - Online",
     "dayOfWeek": "Monday",
     "time": "18:30:00",
-    "location": "Zoom Meeting - Please email 502areana@gmail.com for meeting ID",
+    "location": "Deer Park Baptist Church",
+    "address": {
+      "street": "1733 Bardstown Rd",
+      "city": "Louisville",
+      "state": "KY",
+      "zip": "40205"
+    },
     "tags": [
       "Closed",
       "Women Only",
