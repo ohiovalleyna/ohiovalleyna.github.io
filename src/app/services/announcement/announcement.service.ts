@@ -1,9 +1,10 @@
 import { Injectable } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
-import { Observable } from 'rxjs';
+import { EMPTY, Observable } from 'rxjs';
 import { map } from 'rxjs/operators';
 import { Announcement } from 'src/app/models/announcement';
 import { AnnouncementData } from 'src/app/dto/announcement-data';
+import { ExcelService } from '../excel/excel.service';
 
 
 @Injectable({
@@ -11,26 +12,47 @@ import { AnnouncementData } from 'src/app/dto/announcement-data';
 })
 export class AnnouncementService {
 
-  constructor(private http: HttpClient) { }
+  constructor(private http: HttpClient,
+    private excelSerivce: ExcelService) { }
 
   getAnnouncements(): Observable<Announcement[]> {
-    return this.http.get('/assets/data/announcements.json')
+    return this.getAnnouncementsFromExcel()
       .pipe(
-        map(response => (response as AnnouncementData[])
-          .map(announcementData => this.processAnnouncementData(announcementData)) as Announcement[])
-
+        map(announcementDataList => announcementDataList
+          .map(announcementData => this.processAnnouncementData(announcementData)))
       )
+  }
+
+  getAnnouncementsFromExcel(): Observable<AnnouncementData[]> {
+    return this.excelSerivce.getDataFromExcelSheet('assets/data/ovana-data.xlsx', 'announcements')
+      .pipe(
+        map(excelRows => excelRows.map(this.excelSheetToAnnouncement))
+      );
+  }
+
+  excelSheetToAnnouncement(excelSheet: any): AnnouncementData {
+    return {
+      title: excelSheet['Title'],
+      text: excelSheet['Text']
+    }
+  }
+
+  getAnnouncementsFromJson(): Observable<AnnouncementData[]> {
+    return this.http.get<AnnouncementData[]>('/assets/data/announcements.json');
   }
 
   processAnnouncementData(announcementData: AnnouncementData): Announcement {
     const announcement = new Announcement();
     announcement.title = announcementData.title;
-    announcement.innerHTML = announcementData.innerHTML;
+    announcement.innerHTML = this.urlify(announcementData.text);
     return announcement;
-    // if (announcementData.startDateTime) {
-    //   announcement.startDateTime = moment.of(announcementData.startDateTime);
-    // }
-    // if (announcementData)
-    // announcement.expirationDateTime = announcementData.expirationDateTime ? moment.of(announcementData.expirationDateTime) : moment.now();
   }
+
+  urlify(text) {
+    var urlRegex = /(https?:\/\/[^\s]+)/g;
+    return text.replace(urlRegex, function(url) {
+      return '<a href="' + url + '">' + url + '</a>';
+    });
+  }
+  
 }

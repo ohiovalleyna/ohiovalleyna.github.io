@@ -2,9 +2,10 @@ import { Injectable } from '@angular/core';
 import { Meeting, Tag, DayOfWeek } from '../../models/meeting';
 import { MeetingData } from '../../dto/meeting-data';
 import { HttpClient, HttpClientModule } from '@angular/common/http';
-import { Observable, of } from 'rxjs';
-import { map } from 'rxjs/operators';
+import { EMPTY, Observable, of } from 'rxjs';
+import { flatMap, map } from 'rxjs/operators';
 import moment, { Moment } from 'moment';
+import { ExcelService } from '../excel/excel.service';
 
 
 @Injectable({
@@ -12,13 +13,60 @@ import moment, { Moment } from 'moment';
 })
 export class MeetingService {
 
-  getMeetings(): Observable<Meeting[]> {
-    return this.http.get('assets/data/meetings.json')
-      .pipe(
-        map(response => (response as MeetingData[])
-          .map(meetingData => this.processMeeting(meetingData)) as Meeting[])
-      );
+  constructor(private http: HttpClient,
+    private excelService: ExcelService) { }
 
+  getMeetings(): Observable<Meeting[]> {
+    return this.getMeetingsFromXlsx()
+      .pipe(
+        map((meetingData: MeetingData[]) => meetingData.map(meeting => this.processMeeting(meeting)))
+      )
+  }
+
+  getMeetingsFromXlsx(): Observable<MeetingData[]> {
+    return this.excelService.getDataFromExcelSheet('assets/data/ovana-data.xlsx', 'meetings')
+      .pipe(map(excelSheet => excelSheet.map(this.mapExcelRowToMeeting)));
+  }
+
+  mapExcelRowToMeeting(excelRow: any): MeetingData {
+    return {
+      groupName: excelRow['Group Name'],
+      dayOfWeek: excelRow['Day of Week'],
+      time: excelRow['Military Time HH:MM:SS'],
+      location: excelRow['Location'],
+      address: {
+        street: excelRow['Street'],
+        city: excelRow['City'],
+        state: excelRow['State'],
+        zip: '' + excelRow['Zip']
+      },
+      tags: excelRow['Tags'].split('|')
+    };
+  }
+
+  getMeetingsFromCsv(): Observable<MeetingData[]> {
+    return this.http.get('assets/data/meetings.csv', { responseType: 'text' })
+      .pipe(
+        map((response: string) => response.split('\n')),
+        map((meetingLines: string[]) => meetingLines
+          .slice(1)
+          .filter(commaSeparatedMeeting => commaSeparatedMeeting)
+          .map(meetingString => meetingString.split(','))
+          .map(meetingParts => ({
+            groupName: meetingParts[0],
+            dayOfWeek: meetingParts[1],
+            time: meetingParts[2],
+            location: meetingParts[3],
+            address: {
+              street: meetingParts[4],
+              city: meetingParts[5],
+              state: meetingParts[6],
+              zip: meetingParts[7]
+            },
+            tags: meetingParts[8].split('|')
+          }))
+        )
+      );
   }
 
   processMeeting(meetingData: MeetingData): Meeting {
@@ -88,8 +136,4 @@ export class MeetingService {
       return (isAsc ? -1 : 1) * (dayOfWeekValue || timeValue || nameValue);
     });
   }
-
-
-
-  constructor(private http: HttpClient) { }
 }
