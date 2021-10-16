@@ -1,13 +1,14 @@
-  <h2>{{ display }}</h2>
+  <h2>{{ displayName }}</h2>
   <div>
     <ng-container *ngIf="documents && documents.length > 0 else empty">
+      <a href="{{ folderLink }}" target="_blank">Click here to view all {{ displayName | lowercase }}</a>
       <ul>
-        <li *ngFor="let document of documents"><a href="/{{baseUrl}}/{{document.fileName}}"
-            target="_blank">{{ document.displayName }}</a>
+        <li *ngFor="let document of documents">
+          <a href="{{ document.link }}" target="_blank">{{ document.displayName }}</a>
         </li>
       </ul>
     </ng-container>
     <ng-template #empty>
-      <div>There are no {{ display | lowercase }} currently uploaded</div>
+      <div>There are no {{ displayName | lowercase }} currently uploaded</div>
     </ng-template>
   </div>

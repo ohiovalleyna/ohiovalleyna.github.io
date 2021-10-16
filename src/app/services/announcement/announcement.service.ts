@@ -24,7 +24,7 @@ export class AnnouncementService {
   }
 
   getAnnouncementsFromExcel(): Observable<AnnouncementData[]> {
-    return this.excelSerivce.getDataFromExcelSheet('assets/data/ovana-data.xlsx', 'announcements')
+    return this.excelSerivce.getDataFromExcelSheet('announcements')
       .pipe(
         map(excelRows => excelRows.map(this.excelSheetToAnnouncement))
       );

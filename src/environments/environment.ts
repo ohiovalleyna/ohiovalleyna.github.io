@@ -3,7 +3,8 @@
 // The list of file replacements can be found in `angular.json`.
 
 export const environment = {
-  production: false
+  production: false,
+  excelFile: 'https://docs.google.com/spreadsheets/d/e/2PACX-1vSW5lfa_J9relZXj9QevrMiJRU6D3nlLpaRc8W4yahnLnBex4Bs8BBIMh0DrS1FliVqDMvkUjoJZQ-q/pub?output=xlsx'
 };
 
 /*

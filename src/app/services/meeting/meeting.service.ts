@@ -24,7 +24,7 @@ export class MeetingService {
   }
 
   getMeetingsFromXlsx(): Observable<MeetingData[]> {
-    return this.excelService.getDataFromExcelSheet('assets/data/ovana-data.xlsx', 'meetings')
+    return this.excelService.getDataFromExcelSheet('meetings')
       .pipe(map(excelSheet => excelSheet.map(this.mapExcelRowToMeeting)));
   }
 
@@ -40,7 +40,7 @@ export class MeetingService {
         state: excelRow['State'],
         zip: '' + excelRow['Zip']
       },
-      tags: excelRow['Tags'].split(',')
+      tags: excelRow['Tags'] ? excelRow['Tags'].split(',') : []
     };
   }
 

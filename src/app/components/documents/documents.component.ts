@@ -13,9 +13,8 @@ import { DocumentTypeService } from 'src/app/services/document/document-type.ser
 export class DocumentsComponent implements OnInit {
   documents: Document[];
   documentType: string;
-  baseUrl: string;
-  display: string;
-
+  displayName: string;
+  folderLink: string;
   constructor(private documentService: DocumentService,
     private documentTypeService: DocumentTypeService,
     private route: ActivatedRoute,
@@ -28,8 +27,8 @@ export class DocumentsComponent implements OnInit {
       tap(params => this.documentType = params['document-type']),
       switchMap(_ => this.documentTypeService.getDocumentType(this.documentType)),
       tap(documentType => {
-        this.baseUrl  = documentType.folder;
-        this.display = documentType.displayName;
+        this.folderLink  = documentType.link;
+        this.displayName = documentType.displayName;
       }),
       flatMap(_ => this.documentService.getDocuments(this.documentType))
     ).subscribe(documents => {

@@ -2,6 +2,7 @@ import { HttpClient } from '@angular/common/http';
 import { Injectable } from '@angular/core';
 import { fromEvent, Observable, of, Subscriber } from 'rxjs';
 import { flatMap, map } from 'rxjs/operators';
+import { environment } from 'src/environments/environment';
 import * as XLSX from 'xlsx';
 
 @Injectable({
@@ -11,7 +12,7 @@ export class ExcelService {
   constructor(private http: HttpClient) { }
   readonly loadedFiles: Map<string, XLSX.WorkBook> = new Map();
 
-  getDataFromExcelSheet(fileName: string, worksheetName: string): Observable<any> {
+  getDataFromExcelSheet(worksheetName: string, fileName: string = environment.excelFile): Observable<any> {
     return this.getWorkbook(fileName)
       .pipe(
         map(workbook => XLSX.utils.sheet_to_json(workbook.Sheets[worksheetName]))

@@ -30,7 +30,7 @@ export class DocumentTypeService {
   }
 
   loadDocumentTypes(): Observable<DocTypeData[]> {
-    return this.excelService.getDataFromExcelSheet('assets/data/ovana-data.xlsx', 'document-types')
+    return this.excelService.getDataFromExcelSheet('document-types')
       .pipe(
         map(excelRows => excelRows.map(excelRow => this.excelRowToDocTypeData(excelRow)))
       );
@@ -40,8 +40,8 @@ export class DocumentTypeService {
     return {
       type: excelRow['Type'],
       displayName: excelRow['Display Name'],
-      folder: excelRow['Folder'],
-      description: excelRow['Description']
+      description: excelRow['Description'],
+      link: excelRow['Link']
     }
   }
 
@@ -50,7 +50,7 @@ export class DocumentTypeService {
     const docType = new DocType();
     docType.type = docTypeData.type;
     docType.displayName = docTypeData.displayName;
-    docType.folder = docTypeData.folder;
+    docType.link = docTypeData.link;
     docType.description = docTypeData.description;
     return docType;
   }

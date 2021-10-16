@@ -16,7 +16,7 @@ export class DocumentService {
   constructor(private excelService: ExcelService) { }
 
   getDocuments(...types: string[]): Observable<Document[]> {
-    return this.excelService.getDataFromExcelSheet('assets/data/ovana-data.xlsx', 'documents')
+    return this.excelService.getDataFromExcelSheet('documents')
       .pipe(
         map(excelRows => excelRows.map(excelRow => this.excelRowToDocumentData(excelRow))
           .filter(document => types.length > 0 && types.indexOf(document.type) !== -1)),
@@ -28,14 +28,14 @@ export class DocumentService {
     return {
       type: excelRow['Type'],
       displayName: excelRow['Display Name'],
-      fileName: excelRow['File Name']
+      link: excelRow['Link']
     }
   }
 
   processDocumentData(documentData: DocumentData): Document {
     const document: Document = new Document();
     document.displayName = documentData.displayName;
-    document.fileName = documentData.fileName;
+    document.link = documentData.link;
     return document;
   }
 }
