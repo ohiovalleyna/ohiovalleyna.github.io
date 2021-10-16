@@ -4,26 +4,40 @@ import { Observable, of } from 'rxjs';
 import { map, flatMap } from 'rxjs/operators';
 
 import { Document } from '../../models/document';
+import { ExcelService } from '../excel/excel.service';
+import { DocumentData } from 'src/app/dto/document-data';
 
 
 @Injectable({
   providedIn: 'root'
 })
 export class DocumentService {
-  getDocuments(...types: string[]): Observable<Document[]> {
-    return this.http.get('assets/data/documents.json')
-      .pipe(
-        map((documents: Document[]) => documents
-          .filter(document => types.length === 0 || types.indexOf(document.type) !== -1)
-          .map(document => {
 
-            document.files.forEach(file => file.fileName = `${document.baseUrl}/${file.fileName}`)
-            return document;
-          }))
+  constructor(private excelService: ExcelService) { }
+
+  getDocuments(...types: string[]): Observable<Document[]> {
+    return this.excelService.getDataFromExcelSheet('assets/data/ovana-data.xlsx', 'documents')
+      .pipe(
+        map(excelRows => excelRows.map(excelRow => this.excelRowToDocumentData(excelRow))
+          .filter(document => types.length > 0 && types.indexOf(document.type) !== -1)),
+        map(documentDataList => documentDataList.map(documentData => this.processDocumentData(documentData)))
       );
   }
 
-  constructor(private http: HttpClient) { }
+  excelRowToDocumentData(excelRow: any): DocumentData {
+    return {
+      type: excelRow['Type'],
+      displayName: excelRow['Display Name'],
+      fileName: excelRow['File Name']
+    }
+  }
+
+  processDocumentData(documentData: DocumentData): Document {
+    const document: Document = new Document();
+    document.displayName = documentData.displayName;
+    document.fileName = documentData.fileName;
+    return document;
+  }
 }
 
 

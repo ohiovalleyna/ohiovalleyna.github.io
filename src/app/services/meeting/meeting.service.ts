@@ -19,7 +19,7 @@ export class MeetingService {
   getMeetings(): Observable<Meeting[]> {
     return this.getMeetingsFromXlsx()
       .pipe(
-        map((meetingData: MeetingData[]) => meetingData.map(meeting => this.processMeeting(meeting)))
+        map((meetingData: MeetingData[]) => meetingData.map(meeting => this.processMeetingData(meeting)))
       )
   }
 
@@ -40,36 +40,11 @@ export class MeetingService {
         state: excelRow['State'],
         zip: '' + excelRow['Zip']
       },
-      tags: excelRow['Tags'].split('|')
+      tags: excelRow['Tags'].split(',')
     };
   }
 
-  getMeetingsFromCsv(): Observable<MeetingData[]> {
-    return this.http.get('assets/data/meetings.csv', { responseType: 'text' })
-      .pipe(
-        map((response: string) => response.split('\n')),
-        map((meetingLines: string[]) => meetingLines
-          .slice(1)
-          .filter(commaSeparatedMeeting => commaSeparatedMeeting)
-          .map(meetingString => meetingString.split(','))
-          .map(meetingParts => ({
-            groupName: meetingParts[0],
-            dayOfWeek: meetingParts[1],
-            time: meetingParts[2],
-            location: meetingParts[3],
-            address: {
-              street: meetingParts[4],
-              city: meetingParts[5],
-              state: meetingParts[6],
-              zip: meetingParts[7]
-            },
-            tags: meetingParts[8].split('|')
-          }))
-        )
-      );
-  }
-
-  processMeeting(meetingData: MeetingData): Meeting {
+  processMeetingData(meetingData: MeetingData): Meeting {
     let meeting: Meeting = new Meeting();
     meeting.groupName = meetingData.groupName;
     meeting.time = moment(meetingData.time, 'HH:mm:ss');

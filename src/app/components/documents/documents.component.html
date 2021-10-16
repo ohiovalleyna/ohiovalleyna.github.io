@@ -1,12 +1,13 @@
-<div *ngFor="let document of documents">
-  <h2>{{ document.display }}</h2>
-  <ng-container *ngIf="document.files else empty">
-    <ul>
-      <li *ngFor="let file of document.files"><a href="{{ file.fileName }}" target="_blank">{{ file.linkText }}</a>
-      </li>
-    </ul>
-  </ng-container>
-  <ng-template #empty>
-    <div>There are no documents uploaded for this section yet</div>
-  </ng-template>
-</div>
+  <h2>{{ display }}</h2>
+  <div>
+    <ng-container *ngIf="documents && documents.length > 0 else empty">
+      <ul>
+        <li *ngFor="let document of documents"><a href="/{{baseUrl}}/{{document.fileName}}"
+            target="_blank">{{ document.displayName }}</a>
+        </li>
+      </ul>
+    </ng-container>
+    <ng-template #empty>
+      <div>There are no {{ display | lowercase }} currently uploaded</div>
+    </ng-template>
+  </div>

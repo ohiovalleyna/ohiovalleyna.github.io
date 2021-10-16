@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
-import { Document } from '../../../models/document';
-import { DocumentService } from 'src/app/services/document/document.service';
+import { DocType } from 'src/app/models/doc-type';
+import { DocumentTypeService } from 'src/app/services/document/document-type.service';
 
 @Component({
   selector: 'app-navbar',
@@ -8,11 +8,11 @@ import { DocumentService } from 'src/app/services/document/document.service';
   styleUrls: ['./navbar.component.css']
 })
 export class NavbarComponent implements OnInit {
-  documents: Document[];
-  constructor(private documentService: DocumentService) { }
+  docTypes: DocType[];
+  constructor(private documentTypeService: DocumentTypeService) { }
 
   ngOnInit() {
-    this.documentService.getDocuments().subscribe(
-      documents => this.documents = documents);
+    this.documentTypeService.getAllDocumentTypes().subscribe(
+      docTypes => this.docTypes = docTypes);
   }
 }

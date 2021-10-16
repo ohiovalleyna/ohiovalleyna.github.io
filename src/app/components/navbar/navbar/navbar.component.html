@@ -19,11 +19,11 @@
               <li class="nav-item" data-toggle="collapse" data-target=".navbar-collapse.show">
                   <a class="nav-link" routerLink="/calendar">Calendar</a>
               </li>
-              <ng-container *ngIf="documents">
+              <ng-container *ngIf="docTypes">
                 <!-- If there's just one, a dropdown is useless. -->
-                <ng-container *ngIf="documents.length == 1 else documentsDropdown">
+                <ng-container *ngIf="docTypes.length == 1 else documentsDropdown">
                   <li class="nav-item" data-toggle="collapse" data-target=".navbar-collapse.show" >
-                      <a class="nav-link" routerLink="/documents/{{ documents[0].type }}">{{ documents[0].display }}</a>
+                      <a class="nav-link" routerLink="/documents/{{ docTypes[0].type }}">{{ DocTypes[0].display }}</a>
                   </li>
                 </ng-container>
                 <ng-template #documentsDropdown>
@@ -32,7 +32,7 @@
                         Documents
                         </a>
                         <div class="dropdown-menu dropdown-menu-right" data-toggle="collapse" data-target=".navbar-collapse.show"  aria-labelledby="documentsDropdown">
-                        <a *ngFor="let document of documents" class="dropdown-item" routerLink="/documents/{{ document.type }}">{{ document.display }}</a>
+                        <a *ngFor="let docType of docTypes" class="dropdown-item" routerLink="/documents/{{ docType.type }}">{{ docType.displayName }}</a>
                         </div>
                     </li>
                 </ng-template>
