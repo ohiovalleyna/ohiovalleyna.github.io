@@ -30,7 +30,7 @@ export class DocumentsComponent implements OnInit {
         this.folderLink  = documentType.link;
         this.displayName = documentType.displayName;
       }),
-      flatMap(_ => this.documentService.getDocuments(this.documentType))
+      switchMap(_ => this.documentService.getDocuments(this.documentType))
     ).subscribe(documents => {
       console.log(documents);
       this.documents = documents;

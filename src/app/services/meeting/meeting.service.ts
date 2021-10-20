@@ -5,34 +5,31 @@ import { HttpClient, HttpClientModule } from '@angular/common/http';
 import { EMPTY, Observable, of } from 'rxjs';
 import { flatMap, map } from 'rxjs/operators';
 import moment, { Moment } from 'moment';
-import { ExcelService } from '../excel/excel.service';
-
+import * as ExcelInterface from '../../../assets/scripts/excel-interface';
+import { environment } from 'src/environments/environment';
 
 @Injectable({
   providedIn: 'root'
 })
 export class MeetingService {
 
-  constructor(private http: HttpClient,
-    private excelService: ExcelService) { }
+  constructor(private http: HttpClient) { }
 
-  getMeetings(): Observable<Meeting[]> {
+  getMeetings(): Promise<Meeting[]> {
     return this.getMeetingsFromXlsx()
-      .pipe(
-        map((meetingData: MeetingData[]) => meetingData.map(meeting => this.processMeetingData(meeting)))
-      )
+      .then((meetingData: MeetingData[]) => meetingData.map(meeting => this.processMeetingData(meeting)));
   }
 
-  getMeetingsFromXlsx(): Observable<MeetingData[]> {
-    return this.excelService.getDataFromExcelSheet('meetings')
-      .pipe(map(excelSheet => excelSheet.map(this.mapExcelRowToMeeting)));
+  getMeetingsFromXlsx(): Promise<MeetingData[]> {
+    return ExcelInterface.getDataFromExcelSheet('meetings', environment.excelFile)
+      .then(excelSheet => excelSheet.map(excelRow => this.mapExcelRowToMeeting(excelRow)));
   }
 
   mapExcelRowToMeeting(excelRow: any): MeetingData {
     return {
       groupName: excelRow['Group Name'],
       dayOfWeek: excelRow['Day of Week'],
-      time: excelRow['Military Time HH:MM:SS'],
+      time: excelRow['Military Time HH:MM'],
       location: excelRow['Location'],
       address: {
         street: excelRow['Street'],
@@ -40,18 +37,22 @@ export class MeetingService {
         state: excelRow['State'],
         zip: '' + excelRow['Zip']
       },
-      tags: excelRow['Tags'] ? excelRow['Tags'].split(',') : []
+      tags: excelRow['Tags'] ? excelRow['Tags'].split(',') : [],
+      wheelchairAccessible: excelRow['Wheelchair Accessible']
     };
   }
 
   processMeetingData(meetingData: MeetingData): Meeting {
     let meeting: Meeting = new Meeting();
     meeting.groupName = meetingData.groupName;
-    meeting.time = moment(meetingData.time, 'HH:mm:ss');
+    meeting.time = moment(meetingData.time, 'HH:mm');
     meeting.dayOfWeek = DayOfWeek[meetingData.dayOfWeek];
     meeting.location = meetingData.location;
     meeting.address = meetingData.address;
     meeting.tags = this.getVisibleTags(meetingData.tags).concat(this.getInvisibleTags(meeting));
+    if (meetingData.wheelchairAccessible) {
+      meeting.tags.push({ tag: 'Wheelchair Accessible', visible: true})
+    }
     return meeting;
   }
 

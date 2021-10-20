@@ -4,7 +4,8 @@ import { EMPTY, Observable } from 'rxjs';
 import { map } from 'rxjs/operators';
 import { Announcement } from 'src/app/models/announcement';
 import { AnnouncementData } from 'src/app/dto/announcement-data';
-import { ExcelService } from '../excel/excel.service';
+import * as ExcelInterface from '../../../assets/scripts/excel-interface';
+import { environment } from 'src/environments/environment';
 
 
 @Injectable({
@@ -12,22 +13,17 @@ import { ExcelService } from '../excel/excel.service';
 })
 export class AnnouncementService {
 
-  constructor(private http: HttpClient,
-    private excelSerivce: ExcelService) { }
+  constructor() { }
 
-  getAnnouncements(): Observable<Announcement[]> {
+  getAnnouncements(): Promise<Announcement[]> {
     return this.getAnnouncementsFromExcel()
-      .pipe(
-        map(announcementDataList => announcementDataList
-          .map(announcementData => this.processAnnouncementData(announcementData)))
-      )
+      .then(announcementDataList => announcementDataList
+        .map(announcementData => this.processAnnouncementData(announcementData)));
   }
 
-  getAnnouncementsFromExcel(): Observable<AnnouncementData[]> {
-    return this.excelSerivce.getDataFromExcelSheet('announcements')
-      .pipe(
-        map(excelRows => excelRows.map(this.excelSheetToAnnouncement))
-      );
+  getAnnouncementsFromExcel(): Promise<AnnouncementData[]> {
+    return ExcelInterface.getDataFromExcelSheet('announcements', environment.excelFile)
+      .then(excelRows => excelRows.map(this.excelSheetToAnnouncement));
   }
 
   excelSheetToAnnouncement(excelSheet: any): AnnouncementData {
@@ -35,10 +31,6 @@ export class AnnouncementService {
       title: excelSheet['Title'],
       text: excelSheet['Text']
     }
-  }
-
-  getAnnouncementsFromJson(): Observable<AnnouncementData[]> {
-    return this.http.get<AnnouncementData[]>('/assets/data/announcements.json');
   }
 
   processAnnouncementData(announcementData: AnnouncementData): Announcement {
@@ -50,9 +42,9 @@ export class AnnouncementService {
 
   urlify(text) {
     var urlRegex = /(https?:\/\/[^\s]+)/g;
-    return text.replace(urlRegex, function(url) {
+    return text.replace(urlRegex, function (url) {
       return '<a href="' + url + '" target="_blank">' + url + '</a>';
     });
   }
-  
+
 }

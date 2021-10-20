@@ -15,7 +15,7 @@ export class MeetingListComponent implements OnInit {
   weekdays: string[];
 
   getMeetings(): void {
-    this.meetingService.getMeetings().subscribe(
+    this.meetingService.getMeetings().then(
       meetings => this.meetings = this.meetingService.sortMeetings(meetings, true));
   }
 

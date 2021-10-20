@@ -12,7 +12,7 @@ export class NavbarComponent implements OnInit {
   constructor(private documentTypeService: DocumentTypeService) { }
 
   ngOnInit() {
-    this.documentTypeService.getAllDocumentTypes().subscribe(
+    this.documentTypeService.getAllDocumentTypes().then(
       docTypes => this.docTypes = docTypes);
   }
 }

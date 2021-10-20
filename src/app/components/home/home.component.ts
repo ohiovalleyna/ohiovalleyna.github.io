@@ -14,7 +14,7 @@ export class HomeComponent implements OnInit {
   announcements: Announcement[] = [];
 
   ngOnInit() {
-    this.announcementService.getAnnouncements().subscribe(announcements => this.announcements = announcements);
+    this.announcementService.getAnnouncements().then(announcements => this.announcements = announcements);
   }
 
 }

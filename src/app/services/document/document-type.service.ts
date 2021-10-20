@@ -1,39 +1,34 @@
 import { Injectable } from '@angular/core';
 import { Observable } from 'rxjs';
-import { ExcelService } from '../excel/excel.service';
 import { DocType } from 'src/app/models/doc-type';
 import { DocumentTypeData as DocTypeData } from 'src/app/dto/doc-type-data';
 import { map } from 'rxjs/operators';
+import * as ExcelInterface from '../../../assets/scripts/excel-interface';
+import { environment } from 'src/environments/environment';
 
 @Injectable({
   providedIn: 'root'
 })
 export class DocumentTypeService {
 
-  constructor(private excelService: ExcelService) { }
+  constructor() { }
 
-  getAllDocumentTypes(): Observable<DocType[]> {
+  getAllDocumentTypes(): Promise<DocType[]> {
     return this.loadDocumentTypes()
-      .pipe(
-        map(docTypeDataList => docTypeDataList.map(docTypeData => this.processDocTypeData(docTypeData)))
-      );
+      .then(docTypeDataList => docTypeDataList.map(docTypeData => this.processDocTypeData(docTypeData)));
   }
 
-  getDocumentType(types: string): Observable<DocType> {
+  getDocumentType(types: string): Promise<DocType> {
     return this.loadDocumentTypes()
-      .pipe(
-        map(docTypeDataList => docTypeDataList
+      .then(docTypeDataList => docTypeDataList
           .map(docTypeData => this.processDocTypeData(docTypeData))
           .filter(docType => types.indexOf(docType.type) !== -1)
-          .shift())
-      );
+          .shift());
   }
 
-  loadDocumentTypes(): Observable<DocTypeData[]> {
-    return this.excelService.getDataFromExcelSheet('document-types')
-      .pipe(
-        map(excelRows => excelRows.map(excelRow => this.excelRowToDocTypeData(excelRow)))
-      );
+  loadDocumentTypes(): Promise<DocTypeData[]> {
+    return ExcelInterface.getDataFromExcelSheet('document-types', environment.excelFile)
+      .then(excelRows => excelRows.map(excelRow => this.excelRowToDocTypeData(excelRow)));
   }
 
   excelRowToDocTypeData(excelRow: any): DocTypeData {

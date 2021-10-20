@@ -5,6 +5,7 @@ export interface MeetingData {
     tags: string[];
     location: string;
     address: Address;
+    wheelchairAccessible: boolean;
 }
 
 export interface Address {

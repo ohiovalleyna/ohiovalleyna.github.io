@@ -2,10 +2,10 @@ import { Injectable } from '@angular/core';
 import { HttpClient, HttpClientModule } from '@angular/common/http';
 import { Observable, of } from 'rxjs';
 import { map, flatMap } from 'rxjs/operators';
-
+import * as ExcelInterface from '../../../assets/scripts/excel-interface';
 import { Document } from '../../models/document';
-import { ExcelService } from '../excel/excel.service';
 import { DocumentData } from 'src/app/dto/document-data';
+import { environment } from 'src/environments/environment';
 
 
 @Injectable({
@@ -13,15 +13,13 @@ import { DocumentData } from 'src/app/dto/document-data';
 })
 export class DocumentService {
 
-  constructor(private excelService: ExcelService) { }
+  constructor() { }
 
-  getDocuments(...types: string[]): Observable<Document[]> {
-    return this.excelService.getDataFromExcelSheet('documents')
-      .pipe(
-        map(excelRows => excelRows.map(excelRow => this.excelRowToDocumentData(excelRow))
-          .filter(document => types.length > 0 && types.indexOf(document.type) !== -1)),
-        map(documentDataList => documentDataList.map(documentData => this.processDocumentData(documentData)))
-      );
+  getDocuments(...types: string[]): Promise<Document[]> {
+    return ExcelInterface.getDataFromExcelSheet('documents', environment.excelFile)
+      .then(excelRows => excelRows.map(excelRow => this.excelRowToDocumentData(excelRow))
+        .filter(document => types.length > 0 && types.indexOf(document.type) !== -1))
+      .then(documentDataList => documentDataList.map(documentData => this.processDocumentData(documentData)));
   }
 
   excelRowToDocumentData(excelRow: any): DocumentData {
